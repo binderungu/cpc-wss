@@ -1,0 +1,24 @@
+{
+  "parent_archive": "CPC_SOFTWAREX_RELEASE_CANDIDATE_V3_20261028",
+  "parent_archive_sha256": "45cb9872ecf4eaf88d7b38e7d0d6eacabfe053c912dae515916ac0131463dfb3",
+  "changed_or_removed_parent_paths": [
+    "LICENSE.proposed.MIT.txt",
+    "README.md",
+    "RIGHTS_AND_NOTICES.json",
+    "docs/CURRENT_BOUNDARIES.md"
+  ],
+  "added_paths_before_this_lineage_and_manifest": [
+    ".gitattributes",
+    ".gitignore",
+    "CITATION.md",
+    "LICENSE.txt",
+    "NOTICE.md",
+    "RELEASE_METADATA.json",
+    "docs/REPOSITORY_STATE.md"
+  ],
+  "old_proposal_removed_from_new_payload_only": true,
+  "old_artifacts_modified": false,
+  "all_source_examples_evidence_spec_byte_identical": true,
+  "exact_parent_inventory_preserved_at": "original RC3 archive and versioned verification/RC3_BEFORE.json",
+  "manifest_rule": "Root MANIFEST.sha256 covers every payload file except itself and .git bookkeeping; original nested manifests are unchanged"
+}

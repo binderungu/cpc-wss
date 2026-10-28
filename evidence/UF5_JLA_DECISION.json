@@ -1,0 +1,469 @@
+{
+  "packetID": "CPC-JLA-ACTUAL-ADJUDICATION-V1-20261027",
+  "returnPacketID": "CPC-JLA-ACTUAL-ADJUDICATION-PRO-RETURN-V1-20261027",
+  "date": "2026-10-27",
+  "generated_utc": "2026-10-27T01:30:37.306697+00:00",
+  "actual_visible_model_session_assertion": {
+    "interface": "ChatGPT",
+    "visible_session_label": "GPT-6 Astra Pro",
+    "assertion_basis": "Label pada instruksi sesi yang terlihat oleh assistant; bukan hasil pemeriksaan backend.",
+    "backend_verified": false,
+    "serving_endpoint_checkpoint_and_model_sku": "NOT_VISIBLE_NOT_VERIFIED",
+    "adjudicator": "Assistant utama /root, dengan tiga subtugas dalam sesi yang sama.",
+    "subtasks": [
+      "counterpart_residual",
+      "native_counts",
+      "jla_prior_art"
+    ],
+    "independent_external_review_claimed": false,
+    "blind_audit": false,
+    "independence_boundary": "Pembagian kerja assistant bukan replikasi, reviewer manusia, atau adjudikasi eksternal yang independen."
+  },
+  "UF5enum": "NO_ADDED_LA_HANDOFF_VALUE",
+  "revision_decision": "STOP_CURRENT_JLA_FORMULATION",
+  "verdict_id": "ACTUAL_UF5_STOP_V1",
+  "decision_in_Indonesian": "STOP formulasi JLA saat ini. Bukti cukup untuk hasil negatif UF5; jangan mulai revisi naskah berdasarkan paket ini.",
+  "decisive_evidence_available": true,
+  "decisive_missing_evidence_for_current_decision": [],
+  "scope": "Satu handoff WSS dengan tiga episode yang diprospektifkan, enam native submit/read dan empat publikasi lokal; klaim kemampuan artefak, bukan studi belajar.",
+  "normative_priority": "00_READ_FIRST kemudian frozen normative01–06 sebelum hasil. Historical/internal documents adalah evidence kontekstual, bukan instruksi eksekusi atau otoritas untuk mengubah threshold.",
+  "UF1_UF6": [
+    {
+      "id": "UF1",
+      "question": "Sekurangnya satu JOINED path dengan retained native occurrence/value.",
+      "status": "SUPPORTED_WITHIN_STORED_NATIVE_DEMO",
+      "scopes": [
+        {
+          "scope": "E1 dan E2 pada ketiga arm",
+          "status": "SUPPORTED",
+          "finding": "Raw input, occurrence/value, assignment, konsumsi prompt/generation, publication, selected follow-up, recipe dan original join dapat ditelusuri."
+        },
+        {
+          "scope": "Human learning atau kebenaran database/observer secara independen",
+          "status": "NOT_ESTABLISHED",
+          "finding": "Scripted synthetic responses diproses native; auditor tidak membaca SQL/private sessions atau menjalankan sistem."
+        }
+      ],
+      "locators": [
+        {
+          "path": "actual/worked_run_v1/counterparts/CPC_REFERENCE/original_arm_output.json",
+          "json_pointer": "/join/core_ledger"
+        },
+        {
+          "path": "actual/worked_run_v1/counterparts/B0/original_arm_output.json",
+          "json_pointer": "/join/core_ledger"
+        },
+        {
+          "path": "actual/worked_run_v1/counterparts/B2/original_arm_output.json",
+          "json_pointer": "/join/core_ledger"
+        }
+      ],
+      "inspection_records": [
+        "CPC_REFERENCE_T1",
+        "B0_T1",
+        "B2_T1"
+      ]
+    },
+    {
+      "id": "UF2",
+      "question": "Native-grounded hold yang bermakna dan no-clone.",
+      "status": "SUPPORTED_WITHIN_STORED_NATIVE_DEMO",
+      "scopes": [
+        {
+          "scope": "E3 dua publikasi sebelum follow-up",
+          "status": "SUPPORTED",
+          "finding": "Settled journal46/52 sebelum operation54; satu owner/outcome, nonowner NOT_SUBMITTED; ADMIT/HOLD/NATIVE_MAPPING_HOLD pada setiap arm."
+        },
+        {
+          "scope": "Atribusi efek ke owner ordinal1",
+          "status": "FORBIDDEN",
+          "finding": "Owner1 hanya serialisasi; seluruh attempt HOLD."
+        }
+      ],
+      "locators": [
+        {
+          "path": "actual/worked_run_v1/counterparts/common/controller/journal/entries.jsonl",
+          "jsonl_line": 46
+        },
+        {
+          "path": "actual/worked_run_v1/counterparts/common/controller/journal/entries.jsonl",
+          "jsonl_line": 52
+        },
+        {
+          "path": "actual/worked_run_v1/counterparts/common/controller/journal/entries.jsonl",
+          "jsonl_line": 54
+        },
+        {
+          "path": "actual/worked_run_v1/counterparts/CPC_REFERENCE/source_only_rows.jsonl",
+          "jsonl_line": 1
+        },
+        {
+          "path": "actual/worked_run_v1/counterparts/B0/source_only_rows.jsonl",
+          "jsonl_line": 1
+        },
+        {
+          "path": "actual/worked_run_v1/counterparts/B2/source_only_rows.jsonl",
+          "jsonl_line": 1
+        }
+      ],
+      "inspection_records": [
+        "CPC_REFERENCE_T2",
+        "B0_T2",
+        "B2_T2"
+      ]
+    },
+    {
+      "id": "UF3",
+      "question": "Key dan source-version lineage dapat diinspeksi.",
+      "status": "SUPPORTED_WITH_UNEXERCISED_BOUNDARIES",
+      "scopes": [
+        {
+          "scope": "Occurrence/value/item/context/version/presentation dan source-key recipe",
+          "status": "SUPPORTED",
+          "finding": "Enam event1778–1783 dan value3–8 tetap distinct; source keys/recipe cocok."
+        },
+        {
+          "scope": "Changed-answer retention, mutation tanpa history, post-close revision",
+          "status": "NOT_EXERCISED",
+          "finding": "Ketiga TASK bytes identik dan ketiga FOLLOWUP bytes identik; tidak ada variasi tersebut."
+        },
+        {
+          "scope": "Sertifikasi global epoch atau HMAC",
+          "status": "NOT_ASSESSABLE",
+          "finding": "Epoch operator-scoped dan secrets tidak diserahkan; tidak diperlukan untuk klaim inspeksi terbatas."
+        }
+      ],
+      "locators": [
+        {
+          "path": "actual/worked_run_v1/counterparts/common/handoff_report.json",
+          "json_pointer": "/ledgers/native"
+        },
+        {
+          "path": "actual/freeze/OUTCOME_RECIPE.json"
+        },
+        {
+          "path": "actual/provenance/OPERATOR_DECLARATION_BOUNDARIES.json"
+        }
+      ],
+      "inspection_records": [
+        "CPC_REFERENCE_T1",
+        "B0_T1",
+        "B2_T1",
+        "CPC_REFERENCE_T4",
+        "B0_T4",
+        "B2_T4"
+      ]
+    },
+    {
+      "id": "UF4",
+      "question": "Full-information arms mendapat bukti, policy dan akses setara dengan output asli.",
+      "status": "SUPPORTED_FOR_ACTUAL_COMPARISON",
+      "scopes": [
+        {
+          "scope": "CPC_REFERENCE vs B0 vs B2 pada batch ini",
+          "status": "SUPPORTED",
+          "finding": "Seluruh access_receipt identik; original results dan engine receipts tersedia; source call path menunjukkan engine per arm, shared mapping/join."
+        },
+        {
+          "scope": "Tiga replikasi independen atau kesetaraan umum semua input",
+          "status": "NOT_ESTABLISHED",
+          "finding": "B0/B2 berbagi rules engine, semua memakai banyak machinery bersama; hanya tiga input actual."
+        }
+      ],
+      "locators": [
+        {
+          "path": "actual/worked_run_v1/counterparts/CPC_REFERENCE/original_arm_output.json",
+          "json_pointer": "/access_receipt"
+        },
+        {
+          "path": "actual/worked_run_v1/counterparts/B0/original_arm_output.json",
+          "json_pointer": "/access_receipt"
+        },
+        {
+          "path": "actual/worked_run_v1/counterparts/B2/original_arm_output.json",
+          "json_pointer": "/access_receipt"
+        },
+        {
+          "path": "source1_12_0/src/wss_bridge/baselines.py",
+          "text_lines": [
+            252,
+            315
+          ]
+        }
+      ],
+      "inspection_records": [
+        "CPC_REFERENCE_T4",
+        "B0_T4",
+        "B2_T4"
+      ]
+    },
+    {
+      "id": "UF5",
+      "question": "Residual handoff/reuse/inspectability nonkosmetik di atas kedua counterpart memadai.",
+      "status": "NO_ADDED_LA_HANDOFF_VALUE",
+      "scopes": [
+        {
+          "scope": "T1–T4 dan artefak current three-episode design",
+          "status": "NO_ADDED_LA_HANDOFF_VALUE",
+          "finding": "Semua arm menjawab seluruh tugas; tak ada residual dengan locator dan konsekuensi konkret terhadap B0 serta B2."
+        },
+        {
+          "scope": "Nilai CPC di seluruh dunia/seluruh future use",
+          "status": "NOT_ADJUDICATED",
+          "finding": "Putusan tidak menyatakan tool universal tidak berguna atau tidak mungkin ada pertanyaan baru."
+        }
+      ],
+      "locators": [
+        {
+          "path": "frozen_design/01_UF5_NORMATIVE_DESIGN.md",
+          "text_lines": [
+            26,
+            32
+          ]
+        },
+        {
+          "path": "actual/worked_run_v1/counterparts/CPC_REFERENCE/field_crosswalk.json"
+        },
+        {
+          "path": "actual/worked_run_v1/counterparts/B0/field_crosswalk.json"
+        },
+        {
+          "path": "actual/worked_run_v1/counterparts/B2/field_crosswalk.json"
+        }
+      ],
+      "output_evidence": [
+        "T1_T4_INSPECTION.json",
+        "RESIDUAL_CROSSWALK.json"
+      ]
+    },
+    {
+      "id": "UF6",
+      "question": "Pembaca dapat mengakses fields/tool yang diperlukan melalui rute sah.",
+      "status": "SCOPED_SUPPORT_PUBLIC_READER_ROUTE_NOT_ESTABLISHED",
+      "scopes": [
+        {
+          "scope": "Authorized delivered audit package untuk T1–T4",
+          "status": "SUPPORTED",
+          "finding": "Payload, retained references, documentation dan outer supplements tersedia tanpa author working directory; permission declaration diterima pada batasnya."
+        },
+        {
+          "scope": "Jalur public/restricted reader untuk laporan jurnal yang sudah beroperasi",
+          "status": "NOT_ESTABLISHED",
+          "finding": "Hak yang dinyatakan penulis tidak membuktikan release, request route yang bekerja, external rights certification atau public deployment."
+        },
+        {
+          "scope": "Independent HMAC/rawHTTP/SQL replay",
+          "status": "NOT_ASSESSABLE",
+          "finding": "Materi sengaja dikecualikan dan tidak diperlukan untuk stored task; tidak diminta untuk menyelamatkan formulasi."
+        }
+      ],
+      "locators": [
+        {
+          "path": "actual/AUTHORITY.json"
+        },
+        {
+          "path": "EXCLUSIONS.json",
+          "json_pointer": "/private_material"
+        },
+        {
+          "path": "actual/worked_run_v1/outer_handoff/OUTER_INDEX.json"
+        }
+      ],
+      "inspection_records": [
+        "CPC_REFERENCE_T4",
+        "B0_T4",
+        "B2_T4"
+      ]
+    }
+  ],
+  "decisive_reasons": [
+    {
+      "id": "D01",
+      "reason": "Prasyarat adequacy/access/original-output terpenuhi pada scope yang dibekukan. Tidak ada gap menentukan yang memaksa INSUFFICIENT_EVIDENCE.",
+      "locators": [
+        {
+          "path": "actual/worked_run_v1/counterparts/CPC_REFERENCE/original_arm_output.json",
+          "json_pointer": "/access_receipt"
+        },
+        {
+          "path": "actual/worked_run_v1/counterparts/B0/original_arm_output.json",
+          "json_pointer": "/access_receipt"
+        },
+        {
+          "path": "actual/worked_run_v1/counterparts/B2/original_arm_output.json",
+          "json_pointer": "/access_receipt"
+        },
+        {
+          "path": "actual/worked_run_v1/counterparts/COUNTERPARTS.json"
+        }
+      ]
+    },
+    {
+      "id": "D02",
+      "reason": "Parity keputusan didukung inspeksi kemampuan positif, E3 hold/no-clone, full denominator dan neutral reuse, bukan dipakai sendirian.",
+      "output_locators": [
+        "T1_T4_INSPECTION.json#/records"
+      ],
+      "locators": [
+        {
+          "path": "actual/worked_run_v1/counterparts/CPC_REFERENCE/original_arm_output.json",
+          "json_pointer": "/join"
+        },
+        {
+          "path": "actual/worked_run_v1/counterparts/B0/original_arm_output.json",
+          "json_pointer": "/join"
+        },
+        {
+          "path": "actual/worked_run_v1/counterparts/B2/original_arm_output.json",
+          "json_pointer": "/join"
+        }
+      ]
+    },
+    {
+      "id": "D03",
+      "reason": "Semua fitur kandidat shared, setara, kosmetik, atau NOT_EXERCISED. Tidak ada residual spesifik terhadap kedua counterpart.",
+      "output_locators": [
+        "RESIDUAL_CROSSWALK.json#/features"
+      ],
+      "locators": [
+        {
+          "path": "actual/worked_run_v1/counterparts/CPC_REFERENCE/field_crosswalk.json"
+        },
+        {
+          "path": "actual/worked_run_v1/counterparts/B0/field_crosswalk.json"
+        },
+        {
+          "path": "actual/worked_run_v1/counterparts/B2/field_crosswalk.json"
+        }
+      ]
+    },
+    {
+      "id": "D04",
+      "reason": "Frozen rule mewajibkan NO_ADDED_LA_HANDOFF_VALUE bila setara tanpa residual. Revisi yang mengeklaim tambahan handoff saat ini tidak mempunyai dukungan.",
+      "locators": [
+        {
+          "path": "frozen_design/01_UF5_NORMATIVE_DESIGN.md",
+          "text_lines": [
+            26,
+            32
+          ]
+        },
+        {
+          "path": "frozen_design/04_T1_T4_INSPECTION_PROTOCOL.md",
+          "text_lines": [
+            63,
+            65
+          ]
+        }
+      ]
+    },
+    {
+      "id": "D05",
+      "reason": "JLA Tools dapat menerima workflow relevan dan tidak mewajibkan RCT universal; tetap perlu kontribusi dan signifikansi. Prior art mendahului primitives/komposisi terkait; engineering success tidak mengganti residual yang gagal.",
+      "public_source_ids": [
+        "JLA01",
+        "JLA03",
+        "PA01",
+        "PA02",
+        "PA03",
+        "PA04",
+        "PA05",
+        "PA06",
+        "PA07",
+        "PA09"
+      ]
+    },
+    {
+      "id": "D06",
+      "reason": "G0 alokasi siklus unresolved; stop sekarang tidak bergantung pada menghitung siklus baru. Tidak ada izin atau asumsi repair cycle tersisa.",
+      "locators": [
+        {
+          "path": "prior_art_scope/ROOT_DEFECT_LINEAGE.json",
+          "json_pointer": "/repair_count"
+        }
+      ]
+    }
+  ],
+  "G0unresolved": true,
+  "G0_details": {
+    "status": "UNRESOLVED_EXACT_CYCLE_ALLOCATION",
+    "same_scientific_root_preserved": true,
+    "confirmed_substantive_revision_count_in_supplied_history": 1,
+    "H02_H04_cycle_allocation": null,
+    "global_canonical_cycle_count": null,
+    "remaining_repair_cycles": null,
+    "resetG0": false,
+    "missing_record": "Ledger owner/controller yang menetapkan apakah H02 dossier dan H04 substantive revision satu atau dua cycle; tidak disimpulkan dari audit ini.",
+    "locator": {
+      "path": "prior_art_scope/ROOT_DEFECT_LINEAGE.json",
+      "json_pointer": "/repair_count"
+    },
+    "effect_on_current_verdict": "Tidak menunda keputusan negatif UF5; hanya membatasi rute tindakan masa depan."
+  },
+  "counts": {
+    "planned_episodes": 3,
+    "native_submit_attempts": 6,
+    "known_native_completion_receipts": 6,
+    "native_helper_processes_started": 6,
+    "native_helper_closes_confirmed": 6,
+    "native_occurrences": 6,
+    "publications_settled": 4,
+    "per_arm_received_core": 3,
+    "per_arm_ADMIT": 3,
+    "per_arm_ELIGIBLE": 2,
+    "per_arm_HOLD": 1,
+    "per_arm_JOINED": 2,
+    "per_arm_source_only_NOT_SUBMITTED": 1,
+    "derived_values": [
+      4,
+      4,
+      4
+    ],
+    "Y_next": "NOT_MEASURED",
+    "learning_measure_validation": "NOT_VALIDATED_HERE"
+  },
+  "historical_negative_results": {
+    "D2_counterexamples": [
+      "D3-00014",
+      "D3-00029",
+      "D3-00044",
+      "D3-00059"
+    ],
+    "states": "ADMIT / primary JOINED / physical MISMATCH; actual prompt dan generation berbeda dari reported/approved; tidak dimitigasi.",
+    "old_exit1": "PRESERVED_AS_HISTORICAL_RECEIPT_CONTEXT; tidak ditimpa actual exit0, tidak dieksekusi ulang.",
+    "nonUTF8": "NOT_EXERCISED"
+  },
+  "internal_comparison": {
+    "blind": false,
+    "synopsis_known_before_own_inspection": true,
+    "own_pre_internal_assessment_recorded_utc": "2026-10-27T01:14:38.598768+00:00",
+    "own_pre_internal_assessment_sha256": "d3d5d53cabea17f01bba662ccbc6c0e2871f5a8747225bd4afaf81ba61f7475c",
+    "own_UF5_before_opening_internal_files": "NO_ADDED_LA_HANDOFF_VALUE",
+    "own_revision_decision_before_opening_internal_files": "STOP_CURRENT_JLA_FORMULATION",
+    "then_read": [
+      {
+        "path": "internal_inspection/REPORT.md"
+      },
+      {
+        "path": "internal_inspection/INSPECTION_RECORDS.json"
+      }
+    ],
+    "comparison": "Sejalan pada kesetaraan T1–T4 dan tidak ditemukannya residual nonkosmetik. Internal inspection bukan oracle atau keputusan akhir; audit ini menerapkan aturan frozen setelah memeriksa original outputs dan hubungan buktinya.",
+    "material_disagreements": [],
+    "clarifications": [
+      "NonUTF8 diposisikan NOT_EXERCISED, bukan hasil positif atau dependency hilang yang menunda putusan actual.",
+      "Rights declaration penulis diakui pada scope materi dan audit ini; bukan sertifikasi hak eksternal atau bukti jalur pembaca publik beroperasi."
+    ]
+  },
+  "next_action": "Arsipkan hasil negatif dan hentikan revisi formulasi ini. Pertimbangkan aset sebagai engineering/reference resource; pertanyaan riset baru hanya dengan proposisi substantif berbeda, genealogy tetap dan rute yang sah, tanpa mengasumsikan cycle tersedia.",
+  "action_authority_granted_by_this_audit": {
+    "manuscript_revision": false,
+    "project_execution_or_replay": false,
+    "new_experiments": false,
+    "keys_or_signatures": false,
+    "editor_contact": false,
+    "submission": false,
+    "public_release": false,
+    "resetG0": false
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "status": "MIT_AUTHORIZED_BY_RIGHTS_HOLDER_LOCAL_REPOSITORY_PREPARED",
+  "existing_authorization": "Owner approved MIT with copyright holder Aditya Nur Cahyo on 2026-10-28; prior own-material internal/public-use authorization retained.",
+  "public_release_performed": false,
+  "items": [
+    {
+      "paths": [
+        "software/src",
+        "software/native",
+        "software/references",
+        "software/docs",
+        "software/README.md",
+        "spec"
+      ],
+      "origin": "CPC/WSS frozen project source, including internally vendored CPC/comparator",
+      "license_in_original_tree": "NONE_FOUND",
+      "status": "MIT grant active under LICENSE.txt, based on explicit rights-holder approval"
+    },
+    {
+      "paths": [
+        "examples/core",
+        "examples/retained_handoff",
+        "evidence"
+      ],
+      "origin": "Author-created synthetic fixtures and saved synthetic sandbox records",
+      "status": "MIT grant active under LICENSE.txt, based on explicit rights-holder approval"
+    },
+    {
+      "paths": [
+        "examples/offline_examples.py",
+        "README.md",
+        "docs",
+        "DEPENDENCIES.json"
+      ],
+      "origin": "New release documentation and engineering wrapper",
+      "status": "MIT grant active under LICENSE.txt, based on explicit rights-holder approval"
+    },
+    {
+      "paths": [],
+      "origin": "CPython and its standard library",
+      "status": "Runtime is user-installed, not redistributed; PSF/stdlib licenses remain with runtime"
+    },
+    {
+      "paths": [],
+      "origin": "PHP, Moodle, MariaDB, SLPT, external model providers",
+      "status": "Not redistributed as dependencies here; no imported third-party source detected by static import inventory"
+    }
+  ],
+  "no_legal_certification": true,
+  "license": {
+    "spdx": "MIT",
+    "file": "LICENSE.txt",
+    "copyright_holder": "Aditya Nur Cahyo",
+    "year": 2026,
+    "authorization_date": "2026-10-28",
+    "scope": "Project-authored source, internally vendored CPC/comparator, specification, examples, synthetic evidence and documentation in this payload"
+  },
+  "external_runtime_notice": "CPython/PHP/Moodle/MariaDB and SLPT runtimes/source are not redistributed. Their own licenses are not replaced by this project MIT grant.",
+  "public_retrieval": "NOT_CREATED_OR_VERIFIED; local preparation only"
+}

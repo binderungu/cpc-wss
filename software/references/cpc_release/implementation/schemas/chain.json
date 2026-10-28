@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "chain.json",
+  "type": "object",
+  "properties": {
+    "contract_version": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "profile_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "profile_version": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "case_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "$ref": "record.json"
+      },
+      "maxItems": 16
+    }
+  },
+  "required": [
+    "contract_version",
+    "profile_id",
+    "profile_version",
+    "case_id",
+    "records"
+  ],
+  "additionalProperties": false
+}

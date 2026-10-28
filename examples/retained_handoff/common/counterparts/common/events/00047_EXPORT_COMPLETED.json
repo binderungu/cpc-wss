@@ -1,0 +1,1 @@
+{"data":{"accounting_complete":true,"counts":{"ADMIT":3,"ERROR_INPUT":0,"NOT_EVALUATED_CONFIG":0,"QUARANTINE":0,"REJECT":0},"received":3,"uniqueness_scope":"operator input_ref in this batch only"},"event":"EXPORT_COMPLETED","phase":"ADMISSION"}

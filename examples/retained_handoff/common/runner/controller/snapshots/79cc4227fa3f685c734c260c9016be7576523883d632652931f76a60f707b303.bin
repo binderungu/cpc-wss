@@ -1,0 +1,1 @@
+Cuplikan konseptual fiktif, jangan dieksekusi. tag_input berasal dari formulir. A: sql = "SELECT title FROM lessons WHERE tag = '" + tag_input + "'". B: execute("SELECT title FROM lessons WHERE tag = ?", [tag_input]). Jelaskan bagian yang merupakan struktur SQL dan nilai data, cara A dan B memperlakukan input, serta alasan menjaga batas keduanya.

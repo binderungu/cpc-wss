@@ -1,0 +1,1 @@
+{"data":{"ack":{"acknowledged":true,"anchor":{"attempt_ref":"attempt:5e6c1ee3-a138-462c-9787-6a4ee3fc5080"},"ingestion_ref":"ingestion:05c39b6b-60c9-4feb-8974-686677a5d105","sequence":40,"status":"ACCEPTED"},"operation_ref":"operation:26a25978-82df-4980-bc3f-c42e81a902dc","reported_close":true,"reported_process_exit":0,"slot_ms":0},"event":"OBSERVATION","phase":"TASK_INPUT"}

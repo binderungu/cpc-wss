@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "result.json",
+  "type": "object",
+  "properties": {
+    "input_ref": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "input_sha256": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$",
+      "format": "identifier"
+    },
+    "case_id": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 256,
+          "format": "identifier"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "contract_version": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 256,
+          "format": "identifier"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "profile_id": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 256,
+          "format": "identifier"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "profile_version": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 256,
+          "format": "identifier"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "disposition": {
+      "type": "string",
+      "enum": [
+        "ADMIT",
+        "REJECT",
+        "ERROR_INPUT",
+        "QUARANTINE",
+        "ERROR_CONFIG"
+      ]
+    },
+    "diagnostics": {
+      "type": "array",
+      "items": {
+        "$ref": "diagnostic.json"
+      },
+      "minItems": 0
+    },
+    "admitted_record": {
+      "anyOf": [
+        {
+          "$ref": "admitted_export.json"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    }
+  },
+  "required": [
+    "input_ref",
+    "input_sha256",
+    "case_id",
+    "contract_version",
+    "profile_id",
+    "profile_version",
+    "disposition",
+    "diagnostics",
+    "admitted_record"
+  ],
+  "additionalProperties": false
+}

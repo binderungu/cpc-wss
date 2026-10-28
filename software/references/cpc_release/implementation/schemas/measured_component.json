@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "measured_component.json",
+  "type": "object",
+  "properties": {
+    "component_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "digest": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$",
+      "format": "identifier"
+    },
+    "capture_ref": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "use_ref": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    }
+  },
+  "required": [
+    "component_id",
+    "version",
+    "digest",
+    "capture_ref",
+    "use_ref"
+  ],
+  "additionalProperties": false
+}

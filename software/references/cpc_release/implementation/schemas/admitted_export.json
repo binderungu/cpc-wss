@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "admitted_export.json",
+  "type": "object",
+  "properties": {
+    "input_ref": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "case_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "experiment_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "experiment_version": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "unit_token": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "attributed_condition": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "artifact_version": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "exposure_record_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "outcome_key": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "purpose": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "exposure_digest": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$",
+      "format": "identifier"
+    }
+  },
+  "required": [
+    "input_ref",
+    "case_id",
+    "experiment_id",
+    "experiment_version",
+    "unit_token",
+    "attributed_condition",
+    "artifact_version",
+    "exposure_record_id",
+    "outcome_key",
+    "purpose",
+    "exposure_digest"
+  ],
+  "additionalProperties": false
+}

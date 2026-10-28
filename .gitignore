@@ -1,0 +1,5 @@
+# Local generated files only; retained .bin snapshots and lock files are evidence.
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store

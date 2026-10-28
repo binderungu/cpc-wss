@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "extensions.json",
+  "type": "object",
+  "patternProperties": {
+    "^[A-Za-z][A-Za-z0-9_-]*(?:[.:][A-Za-z0-9_-]+)+$(?![\\s\\S])": {
+      "$ref": "metadata.json"
+    }
+  },
+  "additionalProperties": false,
+  "propertyNames": {
+    "type": "string",
+    "minLength": 1,
+    "maxLength": 256,
+    "format": "identifier"
+  }
+}

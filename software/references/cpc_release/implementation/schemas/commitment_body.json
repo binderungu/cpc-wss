@@ -1,0 +1,159 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "commitment_body.json",
+  "type": "object",
+  "properties": {
+    "contract_version": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "profile_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "profile_version": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "experiment_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "experiment_version": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "unit_token": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "audience": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "deployment_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "context_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "proof_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "issuer": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "issued_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "valid_from": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "expires_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "clock_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "sequence": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "resolution_record_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "resolution_digest": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$",
+      "format": "identifier"
+    },
+    "invocation_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "enacted_condition": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "artifact_version": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "artifacts": {
+      "$ref": "artifacts.json"
+    },
+    "usage_attestation": {
+      "$ref": "usage_attestation.json"
+    },
+    "extensions": {
+      "$ref": "extensions.json"
+    }
+  },
+  "required": [
+    "contract_version",
+    "profile_id",
+    "profile_version",
+    "experiment_id",
+    "experiment_version",
+    "unit_token",
+    "audience",
+    "deployment_id",
+    "context_id",
+    "proof_id",
+    "issuer",
+    "issued_at",
+    "valid_from",
+    "expires_at",
+    "clock_id",
+    "sequence",
+    "resolution_record_id",
+    "resolution_digest",
+    "invocation_id",
+    "enacted_condition",
+    "artifact_version",
+    "artifacts",
+    "usage_attestation"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,94 @@
+{
+  "status": "PRESERVED_NOT_MITIGATED",
+  "method": "Byte copies and archived status/digest assertions; no HMAC/core/join replay",
+  "cases": [
+    {
+      "input_ref": "D3-00014",
+      "case_id": "d2-writing_feedback-guided-forged_registry_only",
+      "archived_core_admission": "ADMIT",
+      "archived_primary_join_status": "JOINED",
+      "archived_physical_binding": "MISMATCH",
+      "actual_registry_match": false,
+      "reported_registry_match": true,
+      "archived_runtime_result_path": "outputs/CPC_JLA_D3_FULL_INFORMATION_LA_V2_20261013/inputs/d2_trials/d2-writing_feedback-guided-forged_registry_only/runtime_result.json",
+      "archived_runtime_result_sha256": "849e3952c895a9cbe09addcbd193422da7915595281931d9ca42266295bde488",
+      "actual_input_digests": {
+        "generation": "sha256:76a95e9b1ac68cc2cfefb15501b1ac3395829e7ee1cac893815c7c21dac01159",
+        "prompt": "sha256:d7b5e30259759bd4f9dedf189f9576aba70dc41faca70c47d6b975b3b37db607"
+      },
+      "reported_input_digests": {
+        "generation": "sha256:9d8bfc410ccff911edcc9a0ea8e808384126562b7e755dd031045e5893bd9d1d",
+        "prompt": "sha256:9269ed2565ccba32fb8fe8cf180fdf9a3f1a6cb103f98d3dfc48f3e792530208"
+      },
+      "prompt_differs": true,
+      "generation_differs": true,
+      "current_hash_matches": true
+    },
+    {
+      "input_ref": "D3-00029",
+      "case_id": "d2-writing_feedback-plain-forged_registry_only",
+      "archived_core_admission": "ADMIT",
+      "archived_primary_join_status": "JOINED",
+      "archived_physical_binding": "MISMATCH",
+      "actual_registry_match": false,
+      "reported_registry_match": true,
+      "archived_runtime_result_path": "outputs/CPC_JLA_D3_FULL_INFORMATION_LA_V2_20261013/inputs/d2_trials/d2-writing_feedback-plain-forged_registry_only/runtime_result.json",
+      "archived_runtime_result_sha256": "dfc0e14ba2135f60281a314079413e30f313f606e989ffa4f7cf6f88a6789a5d",
+      "actual_input_digests": {
+        "generation": "sha256:2adea4ccb0bd8d463ea3b569cca0f1ec2a689ede5c73b61ce363b864d07eaf43",
+        "prompt": "sha256:aaa5f06a0e9debe84b6fcd902e6c507e72c268279fc7859e243a9ae1997611fc"
+      },
+      "reported_input_digests": {
+        "generation": "sha256:5378c0e04aec1985221dca25234e121af22c48e30c913725ea5ad6d82dec99ff",
+        "prompt": "sha256:2417c1aca589081c604441fc4390a514f3ae079968722baf718d1773ca5cd6e6"
+      },
+      "prompt_differs": true,
+      "generation_differs": true,
+      "current_hash_matches": true
+    },
+    {
+      "input_ref": "D3-00044",
+      "case_id": "d2-quiz_tutor-hint-forged_registry_only",
+      "archived_core_admission": "ADMIT",
+      "archived_primary_join_status": "JOINED",
+      "archived_physical_binding": "MISMATCH",
+      "actual_registry_match": false,
+      "reported_registry_match": true,
+      "archived_runtime_result_path": "outputs/CPC_JLA_D3_FULL_INFORMATION_LA_V2_20261013/inputs/d2_trials/d2-quiz_tutor-hint-forged_registry_only/runtime_result.json",
+      "archived_runtime_result_sha256": "d105dc6c32808333349ee6b500bae5783b7d50e655fef16192e32d9f5b7e31e5",
+      "actual_input_digests": {
+        "generation": "sha256:2adea4ccb0bd8d463ea3b569cca0f1ec2a689ede5c73b61ce363b864d07eaf43",
+        "prompt": "sha256:7050ee28c4471dce470aa0ce5e563f51330f5e2c215f8abb55e297ffe21ba07d"
+      },
+      "reported_input_digests": {
+        "generation": "sha256:961d3ded43924a03710cf18d4c30b885cbabf7ac6aa9545e46fbc25e97f9322d",
+        "prompt": "sha256:39e615cd04e5f8d4e01e7a0e089eb22087c00e07b41fc6c6cab7cbfbcec8c2f9"
+      },
+      "prompt_differs": true,
+      "generation_differs": true,
+      "current_hash_matches": true
+    },
+    {
+      "input_ref": "D3-00059",
+      "case_id": "d2-quiz_tutor-answer-forged_registry_only",
+      "archived_core_admission": "ADMIT",
+      "archived_primary_join_status": "JOINED",
+      "archived_physical_binding": "MISMATCH",
+      "actual_registry_match": false,
+      "reported_registry_match": true,
+      "archived_runtime_result_path": "outputs/CPC_JLA_D3_FULL_INFORMATION_LA_V2_20261013/inputs/d2_trials/d2-quiz_tutor-answer-forged_registry_only/runtime_result.json",
+      "archived_runtime_result_sha256": "ea04bea896b73ec5f32966c617cf3e5131c512c4b52602e17e72361158d839f0",
+      "actual_input_digests": {
+        "generation": "sha256:76a95e9b1ac68cc2cfefb15501b1ac3395829e7ee1cac893815c7c21dac01159",
+        "prompt": "sha256:2d4ef5333a024d49919ab7751cbc72a7ee88f36ff2df52b6c0b128b666cdcc34"
+      },
+      "reported_input_digests": {
+        "generation": "sha256:1d859d7ce89c66b937d8d87eee8a3ef6b1ebe8d9322e509ece90b76ce0415966",
+        "prompt": "sha256:786e3f28ba927dbe1e7bd77cd933757561623a13b9f736a3ef64fe7f77ca6480"
+      },
+      "prompt_differs": true,
+      "generation_differs": true,
+      "current_hash_matches": true
+    }
+  ]
+}

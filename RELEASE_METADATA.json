@@ -1,0 +1,31 @@
+{
+  "format": "cpc-wss-repository-preparation-v1",
+  "date": "2026-10-28",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 Aditya Nur Cahyo",
+  "preparation_version": "v1",
+  "source_version": "1.12.0",
+  "core_version": "2.0.2",
+  "contract_schema_version": "2.0.1",
+  "comparator_version": "1.0.1",
+  "helper_version": "1.10.0",
+  "parent": "CPC_SOFTWAREX_RELEASE_CANDIDATE_V3_20261028",
+  "parent_archive_sha256": "45cb9872ecf4eaf88d7b38e7d0d6eacabfe053c912dae515916ac0131463dfb3",
+  "code_behavior_changes": [],
+  "source_and_example_qualification": "Reused RC3 engineering PASS, exact executable byte match checked",
+  "public_repository": null,
+  "published_release": null,
+  "article_doi": null,
+  "planned_destination": "binderungu/cpc-wss",
+  "publication_performed": false,
+  "four_D2": "PRESERVED_NOT_MITIGATED",
+  "UF5": "NO_ADDED_LA_HANDOFF_VALUE",
+  "JLA": "STOP_CURRENT_JLA_FORMULATION",
+  "Y_next": "NOT_MEASURED / NOT_VALIDATED_HERE",
+  "G0": {
+    "count": null,
+    "balance": null,
+    "allocated_cycle": null,
+    "reset": false
+  }
+}

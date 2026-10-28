@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "integrity.json",
+  "type": "object",
+  "properties": {
+    "algorithm": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "key_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "ascii-identifier"
+    },
+    "content_digest": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$",
+      "format": "identifier"
+    },
+    "mac": {
+      "type": "string",
+      "pattern": "^hmac-sha256:[0-9a-f]{64}$",
+      "format": "identifier"
+    }
+  },
+  "required": [
+    "algorithm",
+    "key_id",
+    "content_digest",
+    "mac"
+  ],
+  "additionalProperties": false
+}

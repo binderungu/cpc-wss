@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "measured_components.json",
+  "type": "object",
+  "properties": {
+    "prompt": {
+      "$ref": "measured_component.json"
+    },
+    "generation": {
+      "$ref": "measured_component.json"
+    }
+  },
+  "required": [
+    "prompt",
+    "generation"
+  ],
+  "additionalProperties": false,
+  "propertyNames": {
+    "type": "string",
+    "minLength": 1,
+    "maxLength": 256,
+    "format": "identifier"
+  }
+}

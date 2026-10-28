@@ -1,0 +1,1 @@
+{"encoding":"wss-workflow-json-v1","format":"wss-ledger-v1","scope":{"ledger_ref":"admission-ledger:bd61435506e54a76973828084a136f8f","purpose":"OFFLINE_CPC_ADMISSION","run_ref":"wss-worked-run:20261026-v1:admission","source_epoch_ref":null},"scope_is_a_declaration_not_authority":true}

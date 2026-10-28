@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "metadata.json",
+  "anyOf": [
+    {
+      "type": "null"
+    },
+    {
+      "type": "boolean"
+    },
+    {
+      "type": "string"
+    },
+    {
+      "type": "integer",
+      "minimum": 0
+    },
+    {
+      "type": "array",
+      "items": {
+        "$ref": "metadata.json"
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "metadata.json"
+      }
+    }
+  ]
+}

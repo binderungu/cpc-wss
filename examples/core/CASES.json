@@ -1,0 +1,102 @@
+[
+  {
+    "input": "examples/core/admit.raw",
+    "context": "examples/core/context.json",
+    "expected_disposition": "ADMIT",
+    "original_oracle": {
+      "case_id": "REL-quiz_tutor-positive-hint",
+      "context_path": "contexts_r2/9b092412e366fcadcf25cf239e84c69015e3bc93dab1414eca2e870203c0624e.json",
+      "description": "Complete chain for approved condition hint",
+      "expected_disposition": "ADMIT",
+      "family": "positive",
+      "input_path": "inputs_r2/case-04556.raw",
+      "input_ref": "CPC201-D1-004556",
+      "input_sha256": "6178067bbf21b2b8fa59a9e00d0d3fcc080a8fbc5f7bb2e2abdc853b1b14e65d",
+      "integrity_policy": "ALL_AVAILABLE_SEALS_INDEPENDENTLY_VALID",
+      "profile_name": "quiz_tutor",
+      "raw_bytes": 14015,
+      "required_diagnostics": []
+    },
+    "evidence_class": "REUSED_SYNTHETIC_ENGINEERING_FIXTURE"
+  },
+  {
+    "input": "examples/core/reject.raw",
+    "context": "examples/core/context.json",
+    "expected_disposition": "REJECT",
+    "original_oracle": {
+      "case_id": "quiz_tutor-count-16",
+      "context_path": "contexts_r2/9b092412e366fcadcf25cf239e84c69015e3bc93dab1414eca2e870203c0624e.json",
+      "description": "Maximum supported count allows cardinality evaluation; overflow stops input.",
+      "expected_disposition": "REJECT",
+      "family": "record_bound",
+      "input_path": "inputs_r2/case-04407.raw",
+      "input_ref": "CPC201-D1-004407",
+      "input_sha256": "0bc43c5fa720dc0c4b4d2823670e0fa04ffd2e8b9b974126dc68846356cd39c1",
+      "integrity_policy": "structural_resealed_targets_preserved",
+      "profile_name": "quiz_tutor",
+      "raw_bytes": 29350,
+      "required_diagnostics": [
+        {
+          "disposition": "REJECT",
+          "rule_id": "R08"
+        }
+      ]
+    },
+    "evidence_class": "REUSED_SYNTHETIC_ENGINEERING_FIXTURE"
+  },
+  {
+    "input": "examples/core/quarantine.raw",
+    "context": "examples/core/context.json",
+    "expected_disposition": "QUARANTINE",
+    "original_oracle": {
+      "case_id": "quiz_tutor-empty-evidence-array",
+      "context_path": "contexts_r2/9b092412e366fcadcf25cf239e84c69015e3bc93dab1414eca2e870203c0624e.json",
+      "description": "Well-formed empty records is evidence incompleteness.",
+      "expected_disposition": "QUARANTINE",
+      "family": "incomplete_all_records",
+      "input_path": "inputs_r2/case-04439.raw",
+      "input_ref": "CPC201-D1-004439",
+      "input_sha256": "c9cb753322f7ea7ddce604951007ea727ba5bc1f6d8eeac1f9d05d102fddbb73",
+      "integrity_policy": "structural_resealed_targets_preserved",
+      "profile_name": "quiz_tutor",
+      "raw_bytes": 172,
+      "required_diagnostics": [
+        {
+          "disposition": "QUARANTINE",
+          "rule_id": "Q01"
+        }
+      ]
+    },
+    "evidence_class": "REUSED_SYNTHETIC_ENGINEERING_FIXTURE"
+  },
+  {
+    "input": "examples/core/error_input.raw",
+    "context": "examples/core/context.json",
+    "expected_disposition": "ERROR_INPUT",
+    "original_oracle": {
+      "case_id": "quiz_tutor-field-000-absent",
+      "context_path": "contexts_r2/9b092412e366fcadcf25cf239e84c69015e3bc93dab1414eca2e870203c0624e.json",
+      "description": "$.contract_version absent",
+      "dimension": "absent",
+      "expected_disposition": "ERROR_INPUT",
+      "family": "required_field_dimension",
+      "input_path": "inputs_r2/case-02052.raw",
+      "input_ref": "CPC201-D1-002052",
+      "input_sha256": "fe3a0e55ea329863e6fda47af4a52d1edf6346a3b97aa962cbc7e3a5e92699a4",
+      "integrity_policy": "structural_resealed_targets_preserved",
+      "profile_name": "quiz_tutor",
+      "raw_bytes": 13840,
+      "required_diagnostics": [
+        {
+          "disposition": "ERROR_INPUT",
+          "path_prefix": "$.contract_version",
+          "rule_id": "I02"
+        }
+      ],
+      "target_path": [
+        "contract_version"
+      ]
+    },
+    "evidence_class": "REUSED_SYNTHETIC_ENGINEERING_FIXTURE"
+  }
+]

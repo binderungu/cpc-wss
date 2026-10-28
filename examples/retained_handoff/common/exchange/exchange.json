@@ -1,0 +1,1 @@
+{"authority":"EXTERNAL_OWNER_SCOPE_REQUIRED","format":"wss-local-operation-exchange-v1","max_observations":18,"max_operations":6,"max_raw_bytes":67108864,"poll_interval_ns":10000000,"run_ref":"wss-worked-run:20261026-v1","timeout_ns":60000000000,"trust":"COOPERATING_SINGLE_WRITERS_SAME_POSIX_HOST"}

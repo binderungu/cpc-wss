@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "usage_attestation.json",
+  "type": "object",
+  "properties": {
+    "body": {
+      "$ref": "usage_attestation_body.json"
+    },
+    "integrity": {
+      "$ref": "integrity.json"
+    }
+  },
+  "required": [
+    "body",
+    "integrity"
+  ],
+  "additionalProperties": false
+}

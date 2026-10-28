@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "outcome_payload.json",
+  "type": "object",
+  "properties": {
+    "exposure_record_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "exposure_digest": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$",
+      "format": "identifier"
+    },
+    "attributed_condition": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "outcome_key": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "consent_state": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "consent_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "consent_authority_ref": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "consent_policy_version": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "purpose": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "eligible": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "exposure_record_id",
+    "exposure_digest",
+    "attributed_condition",
+    "outcome_key",
+    "consent_state",
+    "consent_at",
+    "consent_authority_ref",
+    "consent_policy_version",
+    "purpose",
+    "eligible"
+  ],
+  "additionalProperties": false
+}

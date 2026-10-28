@@ -1,0 +1,1 @@
+{"encoding":"wss-workflow-json-v1","format":"wss-ledger-v1","scope":{"ledger_ref":"producer-reference-ledger:2544e5c04e8f462ea88afea8c4236a98","purpose":"PRODUCER_SNAPSHOT_REFERENCES","run_ref":"producer-call:f53455a3fd6d4aacbb95a2dd01b85016","source_epoch_ref":null},"scope_is_a_declaration_not_authority":true}

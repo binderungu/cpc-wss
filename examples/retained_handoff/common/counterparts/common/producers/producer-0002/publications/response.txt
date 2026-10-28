@@ -1,0 +1,5 @@
+Nilai tag_input adalah data formulir; SELECT, FROM, WHERE, nama tabel dan kolom adalah struktur SQL. Cara A menggabungkan nilai ke teks query sehingga batas data dapat berubah menjadi sintaks. Cara B menetapkan query dengan placeholder dan memasok nilai terpisah. Pemisahan itu mempertahankan peran input sebagai data.
+
+Pada penggabungan, teks input ikut dibaca sebagai bagian query yang dibentuk. Pada pengikatan parameter yang benar, nilai tidak menjadi instruksi SQL, sehingga struktur tidak ditentukan isi formulir.
+
+Kesimpulan ini terbatas pada parameter nilai dalam contoh. Placeholder tidak boleh dianggap pengganti bebas untuk nama tabel atau kolom; pemilihan identifier dinamis memerlukan aturan tersendiri. Otorisasi dan pengelolaan akun juga tetap perlu diperiksa. Dua baris ini bukan bukti keamanan aplikasi.

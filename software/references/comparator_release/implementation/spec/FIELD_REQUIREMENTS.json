@@ -1,0 +1,313 @@
+{
+  "document_id": "CPC-FIELDS-2.0.1",
+  "status": "NORMATIVE_FIELD_CATALOGUE_NOT_EXECUTABLE_SCHEMA",
+  "normative_document": "CPC_NORMATIVE_CONTRACT_2.0.1.md",
+  "chain_required": [
+    "contract_version",
+    "profile_id",
+    "profile_version",
+    "case_id",
+    "records"
+  ],
+  "chain_optional": [],
+  "record_required": [
+    "record_id",
+    "record_type",
+    "contract_version",
+    "profile_id",
+    "profile_version",
+    "schema_version",
+    "experiment_id",
+    "experiment_version",
+    "unit_token",
+    "issuer",
+    "audience",
+    "deployment_id",
+    "context_id",
+    "issued_at",
+    "valid_from",
+    "expires_at",
+    "nonce",
+    "predecessor_record_id",
+    "predecessor_digest",
+    "payload",
+    "integrity"
+  ],
+  "record_optional": [
+    "extensions"
+  ],
+  "payload_required": {
+    "assignment": [
+      "assigned_condition",
+      "assignment_policy_version",
+      "scope",
+      "resource_id",
+      "launch_nonce"
+    ],
+    "resolution": [
+      "requested_condition",
+      "resolved_condition",
+      "claim_namespaces",
+      "resolver_version",
+      "fallback_used",
+      "fallback_authorized",
+      "authorization_ref",
+      "launch_nonce",
+      "launch_attestation"
+    ],
+    "exposure": [
+      "enacted_condition",
+      "artifact_version",
+      "artifacts",
+      "invocation_id",
+      "commitment",
+      "release_attestation"
+    ],
+    "outcome": [
+      "exposure_record_id",
+      "exposure_digest",
+      "attributed_condition",
+      "outcome_key",
+      "consent_state",
+      "consent_at",
+      "consent_authority_ref",
+      "consent_policy_version",
+      "purpose",
+      "eligible"
+    ]
+  },
+  "proof_shape": {
+    "required": [
+      "body",
+      "integrity"
+    ],
+    "additional_fields": false
+  },
+  "proof_body_required": {
+    "launch_attestation": [
+      "contract_version",
+      "profile_id",
+      "profile_version",
+      "experiment_id",
+      "experiment_version",
+      "unit_token",
+      "audience",
+      "deployment_id",
+      "context_id",
+      "valid_from",
+      "expires_at",
+      "proof_id",
+      "issuer",
+      "issued_at",
+      "assignment_record_id",
+      "assignment_digest",
+      "resource_id",
+      "launch_nonce",
+      "namespace_values"
+    ],
+    "commitment": [
+      "contract_version",
+      "profile_id",
+      "profile_version",
+      "experiment_id",
+      "experiment_version",
+      "unit_token",
+      "audience",
+      "deployment_id",
+      "context_id",
+      "valid_from",
+      "expires_at",
+      "proof_id",
+      "issuer",
+      "issued_at",
+      "clock_id",
+      "sequence",
+      "resolution_record_id",
+      "resolution_digest",
+      "invocation_id",
+      "enacted_condition",
+      "artifact_version",
+      "artifacts",
+      "usage_attestation"
+    ],
+    "usage_attestation": [
+      "contract_version",
+      "profile_id",
+      "profile_version",
+      "experiment_id",
+      "experiment_version",
+      "unit_token",
+      "audience",
+      "deployment_id",
+      "context_id",
+      "valid_from",
+      "expires_at",
+      "proof_id",
+      "issuer",
+      "issued_at",
+      "clock_id",
+      "sequence",
+      "invocation_id",
+      "resolution_record_id",
+      "resolution_digest",
+      "measured_components"
+    ],
+    "release_attestation": [
+      "contract_version",
+      "profile_id",
+      "profile_version",
+      "experiment_id",
+      "experiment_version",
+      "unit_token",
+      "audience",
+      "deployment_id",
+      "context_id",
+      "valid_from",
+      "expires_at",
+      "proof_id",
+      "issuer",
+      "issued_at",
+      "clock_id",
+      "sequence",
+      "invocation_id",
+      "commitment_digest",
+      "exposure_record_id",
+      "release_boundary"
+    ]
+  },
+  "integrity_required": [
+    "algorithm",
+    "key_id",
+    "content_digest",
+    "mac"
+  ],
+  "artifact_entry_required": [
+    "version",
+    "digest",
+    "evidence_mode"
+  ],
+  "measured_component_required": [
+    "component_id",
+    "version",
+    "digest",
+    "capture_ref",
+    "use_ref"
+  ],
+  "output_required": [
+    "input_ref",
+    "input_sha256",
+    "case_id",
+    "contract_version",
+    "profile_id",
+    "profile_version",
+    "disposition",
+    "diagnostics",
+    "admitted_record"
+  ],
+  "nonempty_fields": "all identifiers/conditions/key/policy/version/purpose/nonce/clock/release-boundary strings; leading/trailing whitespace/control characters forbidden",
+  "exceptions": {
+    "assignment_predecessors": "both null",
+    "authorization_ref": "null exactly when fallback_used=false",
+    "case_id_in_error_output": "null permitted",
+    "admitted_record": "null exactly when not ADMIT"
+  },
+  "binding_checks": "all redundant signed contract/profile/context/links MUST match; no .get(None)==.get(None) may satisfy required relation",
+  "timestamp": "RFC3339 aware representable instants; canonical comparisons in UTC",
+  "additional_fields": "only registered namespaced metadata extensions; extensions cannot satisfy normative requirements",
+  "implementation_status": "ALIGNMENT_AND_NEW_D1_PENDING",
+  "proof_digest_semantics": {
+    "content_digest": "sha256(cpc-json-v2(body))",
+    "commitment_object_digest": "sha256(cpc-json-v2({body,integrity}))",
+    "record_predecessor_digest": "predecessor.integrity.content_digest",
+    "proof_id_uniqueness": "within-chain only"
+  },
+  "root_extensions": "not supported: unsigned root",
+  "proof_body_optional": [
+    "extensions"
+  ],
+  "proof_freshness": "valid_from <= issued_at < expires_at and issued_at <= validation_time and valid_from <= validation_time < expires_at",
+  "container_types": {
+    "records": "array of objects; zero gives missing evidence; max16",
+    "artifacts": "object map with exact profile component keys and closed version/digest/evidence_mode entries",
+    "measured_components": "object map exact profile required_measured_components; each closed entry includes component_id matching map key",
+    "claim_namespaces": "nonempty object map of allowed namespace to nonempty string",
+    "extensions": "registered namespaced metadata object in signed record/proof body only"
+  },
+  "supported_input_bounds": {
+    "raw_utf8_bytes_max": 1048576,
+    "records_max": 16,
+    "json_depth_max": 32,
+    "identifier_unicode_characters_max": 256
+  },
+  "usage_time_lower_bound": "resolution.issued_at <= usage_attestation.body.issued_at",
+  "json_depth": {
+    "definition_id": "cpc-json-depth-root-zero-v1",
+    "normative_section": "2.1",
+    "root_depth": 0,
+    "scalar_or_empty_container_depth": 0,
+    "object_key_edge_increment": 1,
+    "object_value_edge_increment": 1,
+    "array_item_edge_increment": 1,
+    "key_value_relation": "sibling children of object; never key-to-value edge",
+    "aggregate": "maximum depth including keys, scalar leaves and empty containers",
+    "scope": "entire decoded chain including nested proofs, integrity, extensions and unsupported subtrees",
+    "excluded_scope": [
+      "external operator profile",
+      "separate key registry",
+      "validation time",
+      "test manifest"
+    ],
+    "max_depth_profile_integer_range": [
+      1,
+      32
+    ],
+    "booleans_as_integer": false,
+    "exceeded_rule": "I01",
+    "exceeded_disposition": "ERROR_INPUT",
+    "evaluation_order": "external configuration first; successful strict decoding; full-chain depth guard before structural/semantic/cryptographic evaluation",
+    "at_limit": "passes depth guard only; does not imply ADMIT",
+    "examples": [
+      {
+        "json": {},
+        "depth": 0
+      },
+      {
+        "json": [],
+        "depth": 0
+      },
+      {
+        "json": null,
+        "depth": 0,
+        "other_wire_result": "I01 nonobject root"
+      },
+      {
+        "json": {
+          "k": {}
+        },
+        "depth": 1
+      },
+      {
+        "json": {
+          "k": {
+            "z": []
+          }
+        },
+        "depth": 2
+      },
+      {
+        "json": [
+          null
+        ],
+        "depth": 1
+      },
+      {
+        "json": {
+          "k": [
+            null
+          ]
+        },
+        "depth": 2
+      }
+    ]
+  }
+}
