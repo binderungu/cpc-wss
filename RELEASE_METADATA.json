@@ -1,5 +1,5 @@
 {
-  "format": "cpc-wss-repository-preparation-v1",
+  "format": "cpc-wss-public-repository-snapshot-v1",
   "date": "2026-10-28",
   "license": "MIT",
   "copyright": "Copyright (c) 2026 Aditya Nur Cahyo",
@@ -13,11 +13,9 @@
   "parent_archive_sha256": "45cb9872ecf4eaf88d7b38e7d0d6eacabfe053c912dae515916ac0131463dfb3",
   "code_behavior_changes": [],
   "source_and_example_qualification": "Reused RC3 engineering PASS, exact executable byte match checked",
-  "public_repository": null,
+  "public_repository": "https://github.com/binderungu/cpc-wss",
   "published_release": null,
   "article_doi": null,
-  "planned_destination": "binderungu/cpc-wss",
-  "publication_performed": false,
   "four_D2": "PRESERVED_NOT_MITIGATED",
   "UF5": "NO_ADDED_LA_HANDOFF_VALUE",
   "JLA": "STOP_CURRENT_JLA_FORMULATION",
@@ -27,5 +25,8 @@
     "balance": null,
     "allocated_cycle": null,
     "reset": false
-  }
+  },
+  "preparation_parent_commit": "09b8622e1edb57a3d1d300b1b7ac678d4c3c9d7a",
+  "publication_snapshot": "repository-publication-v1-20261028",
+  "delivery_verification": "See independently verified public commit/tag; static metadata is not proof of delivery"
 }

@@ -28,4 +28,6 @@ This licensed repository snapshot is a distribution wrapper around frozen source
 cycle is reset. On 28 October 2026 the rights holder authorized MIT for this
 payload. Frozen historical release NOT_AUTHORIZED fields retain their original
 stage meaning; they do not cancel the separately recorded current license grant.
-Public GitHub retrieval is not established by preparing this local repository.
+The current distribution location is https://github.com/binderungu/cpc-wss.
+Public delivery is checked separately against the exact commit and manifest;
+source/evidence assertions alone do not prove remote delivery.

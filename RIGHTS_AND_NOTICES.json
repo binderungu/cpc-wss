@@ -1,7 +1,6 @@
 {
-  "status": "MIT_AUTHORIZED_BY_RIGHTS_HOLDER_LOCAL_REPOSITORY_PREPARED",
+  "status": "MIT_AUTHORIZED_BY_RIGHTS_HOLDER_PUBLIC_DISTRIBUTION_SNAPSHOT",
   "existing_authorization": "Owner approved MIT with copyright holder Aditya Nur Cahyo on 2026-10-28; prior own-material internal/public-use authorization retained.",
-  "public_release_performed": false,
   "items": [
     {
       "paths": [
@@ -56,5 +55,6 @@
     "scope": "Project-authored source, internally vendored CPC/comparator, specification, examples, synthetic evidence and documentation in this payload"
   },
   "external_runtime_notice": "CPython/PHP/Moodle/MariaDB and SLPT runtimes/source are not redistributed. Their own licenses are not replaced by this project MIT grant.",
-  "public_retrieval": "NOT_CREATED_OR_VERIFIED; local preparation only"
+  "repository_url": "https://github.com/binderungu/cpc-wss",
+  "distribution_scope": "Exact tracked snapshot; delivery/public-read verification is separate from this static metadata"
 }

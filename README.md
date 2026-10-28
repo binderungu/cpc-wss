@@ -1,8 +1,8 @@
 # CPC/WSS integrated reference resource
 
-MIT-licensed repository preparation v1, 28 October 2026. The remote repository
-has not been created or published. This snapshot is prepared locally for public
-release and retains the RC3-qualified executable source and examples.
+MIT-licensed CPC/WSS repository snapshot, 28 October 2026.
+Public source location: [binderungu/cpc-wss](https://github.com/binderungu/cpc-wss).
+This distribution retains the RC3-qualified executable source and examples.
 Source remains WSS 1.12.0 / CPC core 2.0.2 / contract and schema 2.0.1.
 
 CPC checks supplied condition/version assertions and produces typed admission
@@ -79,9 +79,10 @@ the project-authored source, internally vendored CPC/comparator, specification,
 examples, synthetic evidence and documentation in this distribution. External
 runtimes and SLPT source are not redistributed; their licenses are not changed.
 
-The repository is prepared locally. There is no verified public URL, published
-release, DOI, SoftwareX manuscript or submission associated with this snapshot.
-Do not treat the proposed repository name as evidence of availability. Historical
+The code and supporting examples are distributed at the public source location
+above. Use an exact commit or tag when citing a version; a mutable branch alone
+does not identify a frozen snapshot. No release DOI, accepted SoftwareX article,
+journal submission or externally observed adoption is asserted. Historical
 NOT_AUTHORIZED/NOT_RUN labels inside frozen source and retained evidence describe
 their original stage. The current license grant is recorded separately in
 [NOTICE.md](NOTICE.md) and does not rewrite scientific or native history.

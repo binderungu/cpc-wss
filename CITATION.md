@@ -1,13 +1,13 @@
 # Citation
 
-Interim software description:
-
 Aditya Nur Cahyo (2026). CPC/WSS integrated reference resource. Repository
-preparation v1 (28 October 2026); WSS source 1.12.0, CPC core 2.0.2, contract/schema
-2.0.1. MIT License.
+snapshot 28 October 2026; WSS source 1.12.0, CPC core 2.0.2, contract/schema
+2.0.1. MIT License. https://github.com/binderungu/cpc-wss
 
-No public repository URL, release DOI or accepted SoftwareX article is asserted
-at this preparation stage. When the resource is actually published, cite its
-verified repository URL and immutable commit/release identifier. Add the article
-DOI only after an actual publication. The local Git preparation tag is not a
-journal publication or an externally archived release.
+For this distribution use tag `repository-publication-v1-20261028`, or the exact
+commit underlying that tag. The earlier `repository-prep-v1-20261028` identifies
+the preserved initial licensed preparation state.
+
+No release DOI or accepted SoftwareX article is asserted. Add an archival DOI or
+article DOI only after actual deposition/publication. A source repository tag
+is a software snapshot, not a peer-reviewed journal publication.
