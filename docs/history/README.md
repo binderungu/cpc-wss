@@ -1,0 +1,1 @@
+The manifest in this folder is the unchanged record of public pin ccdc93e0d1272ee1e65915409cc95da35f35aa4b. Its paths are relative to that old pin; it is not an active validation manifest for this preparation candidate. The current candidate root MANIFEST.sha256 binds the current layout. Old public bytes remain intact at the original pin.

@@ -1,0 +1,298 @@
+{
+  "comparator_version": "1.0.1",
+  "cpc_contract_version": "2.0.1",
+  "cpc_implementation_version": "2.0.2",
+  "cpc_schema_version": "cpc-2.0.1",
+  "files": [
+    {
+      "copied_sha256": "sha256:3db0709ed4384c371a15df812791cc3a3ba98a94ee6f8b8164d842cc7e68504a",
+      "path": "comparator_release/comparator/independent_rules.py",
+      "size_bytes": 29178,
+      "source_path": "outputs/CPC_JLA_D3_FULL_INFORMATION_LA_V2_20261013/comparator/independent_rules.py",
+      "source_sha256": "sha256:3db0709ed4384c371a15df812791cc3a3ba98a94ee6f8b8164d842cc7e68504a"
+    },
+    {
+      "copied_sha256": "sha256:33b936510b79147e946729c2099bc264a83f9597ec3b91635910a4b8349fb8b6",
+      "path": "comparator_release/implementation/spec/FIELD_REQUIREMENTS.json",
+      "size_bytes": 8102,
+      "source_path": "outputs/CPC_JLA_D3_FULL_INFORMATION_LA_V2_20261013/implementation/spec/FIELD_REQUIREMENTS.json",
+      "source_sha256": "sha256:33b936510b79147e946729c2099bc264a83f9597ec3b91635910a4b8349fb8b6"
+    },
+    {
+      "copied_sha256": "sha256:f50aa522efd5e9ddf9de2ba14537f69ed0592d9a723e85077457a79bda0e83c3",
+      "path": "cpc_release/implementation/schemas/README.md",
+      "size_bytes": 6351,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/schemas/README.md",
+      "source_sha256": "sha256:f50aa522efd5e9ddf9de2ba14537f69ed0592d9a723e85077457a79bda0e83c3"
+    },
+    {
+      "copied_sha256": "sha256:1946384567cbbb642199e88f593715ad527ba1b77e43f5e1bab22539e3844e81",
+      "path": "cpc_release/implementation/schemas/admitted_export.json",
+      "size_bytes": 1840,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/schemas/admitted_export.json",
+      "source_sha256": "sha256:1946384567cbbb642199e88f593715ad527ba1b77e43f5e1bab22539e3844e81"
+    },
+    {
+      "copied_sha256": "sha256:824d30597d6f86a5ed9380c8f9b956d93f9178d184c053c8818e97ec1dc77a9b",
+      "path": "cpc_release/implementation/schemas/artifact_entry.json",
+      "size_bytes": 611,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/schemas/artifact_entry.json",
+      "source_sha256": "sha256:824d30597d6f86a5ed9380c8f9b956d93f9178d184c053c8818e97ec1dc77a9b"
+    },
+    {
+      "copied_sha256": "sha256:a34a8fa0e41990085a2eec2379aa4adaa43951937962ebfefe00f1911f51d493",
+      "path": "cpc_release/implementation/schemas/artifacts.json",
+      "size_bytes": 889,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/schemas/artifacts.json",
+      "source_sha256": "sha256:a34a8fa0e41990085a2eec2379aa4adaa43951937962ebfefe00f1911f51d493"
+    },
+    {
+      "copied_sha256": "sha256:d49fff78b223ba50028d47b4acd005f75df696b3684ef5930fb112c50b2e37fe",
+      "path": "cpc_release/implementation/schemas/assignment_payload.json",
+      "size_bytes": 957,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/schemas/assignment_payload.json",
+      "source_sha256": "sha256:d49fff78b223ba50028d47b4acd005f75df696b3684ef5930fb112c50b2e37fe"
+    },
+    {
+      "copied_sha256": "sha256:9c5b40f7a8164e7192a79ecdfb29247174a6114da6a75c58911ffd1a77121f93",
+      "path": "cpc_release/implementation/schemas/assignment_record.json",
+      "size_bytes": 2946,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/schemas/assignment_record.json",
+      "source_sha256": "sha256:9c5b40f7a8164e7192a79ecdfb29247174a6114da6a75c58911ffd1a77121f93"
+    },
+    {
+      "copied_sha256": "sha256:5f954dfe4960901accb85d1b5d63f235ac734ccffe98636cfd407991d85e6468",
+      "path": "cpc_release/implementation/schemas/chain.json",
+      "size_bytes": 913,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/schemas/chain.json",
+      "source_sha256": "sha256:5f954dfe4960901accb85d1b5d63f235ac734ccffe98636cfd407991d85e6468"
+    },
+    {
+      "copied_sha256": "sha256:674ccd74fa7953d0f4437b9c1d0355ac0310138c80cfdea5971d5a85b83a0a09",
+      "path": "cpc_release/implementation/schemas/commitment.json",
+      "size_bytes": 331,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/schemas/commitment.json",
+      "source_sha256": "sha256:674ccd74fa7953d0f4437b9c1d0355ac0310138c80cfdea5971d5a85b83a0a09"
+    },
+    {
+      "copied_sha256": "sha256:1405363459a530d7a69aceac4753cf3d5a045414994acce1f9dffad30b3e07e4",
+      "path": "cpc_release/implementation/schemas/commitment_body.json",
+      "size_bytes": 3337,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/schemas/commitment_body.json",
+      "source_sha256": "sha256:1405363459a530d7a69aceac4753cf3d5a045414994acce1f9dffad30b3e07e4"
+    },
+    {
+      "copied_sha256": "sha256:7e10fa84e3c49a8bc5fe56e084e7c972f53ca7a408101f5ad65fd49e415a8b9d",
+      "path": "cpc_release/implementation/schemas/diagnostic.json",
+      "size_bytes": 774,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/schemas/diagnostic.json",
+      "source_sha256": "sha256:7e10fa84e3c49a8bc5fe56e084e7c972f53ca7a408101f5ad65fd49e415a8b9d"
+    },
+    {
+      "copied_sha256": "sha256:c7b0de2d9d2d1a71de6d49a3d475e91b91e1c6f9abc5c401e9ad1e19decadb26",
+      "path": "cpc_release/implementation/schemas/exposure_payload.json",
+      "size_bytes": 912,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/schemas/exposure_payload.json",
+      "source_sha256": "sha256:c7b0de2d9d2d1a71de6d49a3d475e91b91e1c6f9abc5c401e9ad1e19decadb26"
+    },
+    {
+      "copied_sha256": "sha256:ddf93aa9be9ebc6065f0ddd7dada1613ac2846e5e51f4f5ab8423f66c9760db5",
+      "path": "cpc_release/implementation/schemas/exposure_record.json",
+      "size_bytes": 3092,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/schemas/exposure_record.json",
+      "source_sha256": "sha256:ddf93aa9be9ebc6065f0ddd7dada1613ac2846e5e51f4f5ab8423f66c9760db5"
+    },
+    {
+      "copied_sha256": "sha256:a4c7966c31e76c585cef50a7236874e1c6ef671d0ce82908c63ea007d20105ee",
+      "path": "cpc_release/implementation/schemas/extensions.json",
+      "size_bytes": 397,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/schemas/extensions.json",
+      "source_sha256": "sha256:a4c7966c31e76c585cef50a7236874e1c6ef671d0ce82908c63ea007d20105ee"
+    },
+    {
+      "copied_sha256": "sha256:096baf95e393f0ba75f0c45c0bf57bcdb9d973b52e7a46e4fe84be2c5ccac1aa",
+      "path": "cpc_release/implementation/schemas/integrity.json",
+      "size_bytes": 749,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/schemas/integrity.json",
+      "source_sha256": "sha256:096baf95e393f0ba75f0c45c0bf57bcdb9d973b52e7a46e4fe84be2c5ccac1aa"
+    },
+    {
+      "copied_sha256": "sha256:2909541f8d9828cbb5ae1d32defe023c9e23137b173b1ca9418b16cf7c618323",
+      "path": "cpc_release/implementation/schemas/launch_attestation.json",
+      "size_bytes": 347,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/schemas/launch_attestation.json",
+      "source_sha256": "sha256:2909541f8d9828cbb5ae1d32defe023c9e23137b173b1ca9418b16cf7c618323"
+    },
+    {
+      "copied_sha256": "sha256:6dc11b392630fff958cf19402015d048699cf015a8b3a961cac905dc000115ec",
+      "path": "cpc_release/implementation/schemas/launch_attestation_body.json",
+      "size_bytes": 3173,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/schemas/launch_attestation_body.json",
+      "source_sha256": "sha256:6dc11b392630fff958cf19402015d048699cf015a8b3a961cac905dc000115ec"
+    },
+    {
+      "copied_sha256": "sha256:87c8237d9834f6b203e41db13d73221868286fa943258928589f2049fbb06625",
+      "path": "cpc_release/implementation/schemas/measured_component.json",
+      "size_bytes": 897,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/schemas/measured_component.json",
+      "source_sha256": "sha256:87c8237d9834f6b203e41db13d73221868286fa943258928589f2049fbb06625"
+    },
+    {
+      "copied_sha256": "sha256:f645afbf0474042ece67b26d9fdb33267fe9fe57a6859e6e127a1ef643d8db67",
+      "path": "cpc_release/implementation/schemas/measured_components.json",
+      "size_bytes": 475,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/schemas/measured_components.json",
+      "source_sha256": "sha256:f645afbf0474042ece67b26d9fdb33267fe9fe57a6859e6e127a1ef643d8db67"
+    },
+    {
+      "copied_sha256": "sha256:10754eb099dbe3b3ea22c57e2e1d4ee3dd2aa48291ca24cb226958589b01d686",
+      "path": "cpc_release/implementation/schemas/metadata.json",
+      "size_bytes": 473,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/schemas/metadata.json",
+      "source_sha256": "sha256:10754eb099dbe3b3ea22c57e2e1d4ee3dd2aa48291ca24cb226958589b01d686"
+    },
+    {
+      "copied_sha256": "sha256:d8d28105a2a38b58468f0948aa9a40db1325382ac720db02ef3d791a69b9f4e8",
+      "path": "cpc_release/implementation/schemas/outcome_payload.json",
+      "size_bytes": 1596,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/schemas/outcome_payload.json",
+      "source_sha256": "sha256:d8d28105a2a38b58468f0948aa9a40db1325382ac720db02ef3d791a69b9f4e8"
+    },
+    {
+      "copied_sha256": "sha256:ed94219f30236dc07354f4c5dd0b826e31088263f1d9c4f456ad7941d780b96b",
+      "path": "cpc_release/implementation/schemas/outcome_record.json",
+      "size_bytes": 3089,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/schemas/outcome_record.json",
+      "source_sha256": "sha256:ed94219f30236dc07354f4c5dd0b826e31088263f1d9c4f456ad7941d780b96b"
+    },
+    {
+      "copied_sha256": "sha256:e26316f12a8b95e43c962d62a56c19a3f45a9bad7ca4c643c24d7ab89edd1882",
+      "path": "cpc_release/implementation/schemas/profile.json",
+      "size_bytes": 10604,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/schemas/profile.json",
+      "source_sha256": "sha256:e26316f12a8b95e43c962d62a56c19a3f45a9bad7ca4c643c24d7ab89edd1882"
+    },
+    {
+      "copied_sha256": "sha256:71fcc3af2e6b3eac547f783e91bf977ea2733621c68aab7532cf800de4186785",
+      "path": "cpc_release/implementation/schemas/record.json",
+      "size_bytes": 308,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/schemas/record.json",
+      "source_sha256": "sha256:71fcc3af2e6b3eac547f783e91bf977ea2733621c68aab7532cf800de4186785"
+    },
+    {
+      "copied_sha256": "sha256:d128a4d1de63562e1ac1db0fdbed6216ba3c7f5fb45e11a75eaaa8a48d73d2df",
+      "path": "cpc_release/implementation/schemas/release_attestation.json",
+      "size_bytes": 349,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/schemas/release_attestation.json",
+      "source_sha256": "sha256:d128a4d1de63562e1ac1db0fdbed6216ba3c7f5fb45e11a75eaaa8a48d73d2df"
+    },
+    {
+      "copied_sha256": "sha256:517f746ea9f89451bf4d7bf79cad7676091e38c9827cf63a9b53262741007d52",
+      "path": "cpc_release/implementation/schemas/release_attestation_body.json",
+      "size_bytes": 3012,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/schemas/release_attestation_body.json",
+      "source_sha256": "sha256:517f746ea9f89451bf4d7bf79cad7676091e38c9827cf63a9b53262741007d52"
+    },
+    {
+      "copied_sha256": "sha256:580de4fb2d8232fb4fec1f5e45c0114f6d4ceab256b81261f4c1af1e3965233c",
+      "path": "cpc_release/implementation/schemas/resolution_payload.json",
+      "size_bytes": 1744,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/schemas/resolution_payload.json",
+      "source_sha256": "sha256:580de4fb2d8232fb4fec1f5e45c0114f6d4ceab256b81261f4c1af1e3965233c"
+    },
+    {
+      "copied_sha256": "sha256:5c03e04ad32c4e38cda1146588668bc8a602ffc90025ba4d5ab025d212b25bcf",
+      "path": "cpc_release/implementation/schemas/resolution_record.json",
+      "size_bytes": 3098,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/schemas/resolution_record.json",
+      "source_sha256": "sha256:5c03e04ad32c4e38cda1146588668bc8a602ffc90025ba4d5ab025d212b25bcf"
+    },
+    {
+      "copied_sha256": "sha256:e2ed52f74c1dfe2b104e87278fe60356c3b0cbc51342c2d38adc108ecdae14fc",
+      "path": "cpc_release/implementation/schemas/result.json",
+      "size_bytes": 2024,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/schemas/result.json",
+      "source_sha256": "sha256:e2ed52f74c1dfe2b104e87278fe60356c3b0cbc51342c2d38adc108ecdae14fc"
+    },
+    {
+      "copied_sha256": "sha256:43c89d9d59f88f25197800c106e27a32b86a844fcdb0fb09063755b6758cf1c1",
+      "path": "cpc_release/implementation/schemas/usage_attestation.json",
+      "size_bytes": 345,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/schemas/usage_attestation.json",
+      "source_sha256": "sha256:43c89d9d59f88f25197800c106e27a32b86a844fcdb0fb09063755b6758cf1c1"
+    },
+    {
+      "copied_sha256": "sha256:2150605f4649ef4eb964e975da79975fccebdc4cbfa053a610c13380ce772cb2",
+      "path": "cpc_release/implementation/schemas/usage_attestation_body.json",
+      "size_bytes": 2962,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/schemas/usage_attestation_body.json",
+      "source_sha256": "sha256:2150605f4649ef4eb964e975da79975fccebdc4cbfa053a610c13380ce772cb2"
+    },
+    {
+      "copied_sha256": "sha256:f3bb16879637c89b3686a48dd00327eadac891196ea7aba20729351da6ce6e71",
+      "path": "cpc_release/implementation/src/cpc2/__init__.py",
+      "size_bytes": 103,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/src/cpc2/__init__.py",
+      "source_sha256": "sha256:f3bb16879637c89b3686a48dd00327eadac891196ea7aba20729351da6ce6e71"
+    },
+    {
+      "copied_sha256": "sha256:1815d62f6df10eded84e5f3590727c71afca3fed96cbd18fc31a4c4a62d11ab9",
+      "path": "cpc_release/implementation/src/cpc2/__main__.py",
+      "size_bytes": 1281,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/src/cpc2/__main__.py",
+      "source_sha256": "sha256:1815d62f6df10eded84e5f3590727c71afca3fed96cbd18fc31a4c4a62d11ab9"
+    },
+    {
+      "copied_sha256": "sha256:3e2f5e1c12886698427e86a5a0f21e6071cc9911d963e370dd18a09425348653",
+      "path": "cpc_release/implementation/src/cpc2/api.py",
+      "size_bytes": 9033,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/src/cpc2/api.py",
+      "source_sha256": "sha256:3e2f5e1c12886698427e86a5a0f21e6071cc9911d963e370dd18a09425348653"
+    },
+    {
+      "copied_sha256": "sha256:08123a6f3e2ebeb18e5d92aa441ce0d924661c710943cae2a7477d3e45467719",
+      "path": "cpc_release/implementation/src/cpc2/common.py",
+      "size_bytes": 3412,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/src/cpc2/common.py",
+      "source_sha256": "sha256:08123a6f3e2ebeb18e5d92aa441ce0d924661c710943cae2a7477d3e45467719"
+    },
+    {
+      "copied_sha256": "sha256:0c6f6f2f164eda288af175078ec964813fa6624dd623d11e7927d3d2c3ee86b9",
+      "path": "cpc_release/implementation/src/cpc2/export.py",
+      "size_bytes": 3473,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/src/cpc2/export.py",
+      "source_sha256": "sha256:0c6f6f2f164eda288af175078ec964813fa6624dd623d11e7927d3d2c3ee86b9"
+    },
+    {
+      "copied_sha256": "sha256:ff4b94906f0919a3bae3dae2a7310e97f1c99189107af0c65fce640d71cbb207",
+      "path": "cpc_release/implementation/src/cpc2/integrity.py",
+      "size_bytes": 5007,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/src/cpc2/integrity.py",
+      "source_sha256": "sha256:ff4b94906f0919a3bae3dae2a7310e97f1c99189107af0c65fce640d71cbb207"
+    },
+    {
+      "copied_sha256": "sha256:6000a36b95bb11c4439ad3bc3143653a7ccb594e31d4b48f8599218a75694c5e",
+      "path": "cpc_release/implementation/src/cpc2/profile.py",
+      "size_bytes": 9499,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/src/cpc2/profile.py",
+      "source_sha256": "sha256:6000a36b95bb11c4439ad3bc3143653a7ccb594e31d4b48f8599218a75694c5e"
+    },
+    {
+      "copied_sha256": "sha256:0270c67242f1eb3bfea80dc390dd05230167b1f4bef225587638ecfb46cda6c3",
+      "path": "cpc_release/implementation/src/cpc2/schema.py",
+      "size_bytes": 13493,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/src/cpc2/schema.py",
+      "source_sha256": "sha256:0270c67242f1eb3bfea80dc390dd05230167b1f4bef225587638ecfb46cda6c3"
+    },
+    {
+      "copied_sha256": "sha256:4a4791eca1294c4bc4fb284bdd89c3f4318f0ba913d3ccd1b312756078f6ce0c",
+      "path": "cpc_release/implementation/src/cpc2/validator.py",
+      "size_bytes": 30978,
+      "source_path": "outputs/CPC_JLA_DEPTH_CONTRACT_2_0_1_D1_V1_20261013/implementation/src/cpc2/validator.py",
+      "source_sha256": "sha256:4a4791eca1294c4bc4fb284bdd89c3f4318f0ba913d3ccd1b312756078f6ce0c"
+    }
+  ],
+  "manifest_version": "wss-reference-manifest-1.0",
+  "project_code_executed": false,
+  "reference_class": "BYTE_EXACT_SOURCE_PIN_ONLY"
+}

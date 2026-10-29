@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "artifacts.json",
+  "type": "object",
+  "properties": {
+    "prompt": {
+      "$ref": "artifact_entry.json"
+    },
+    "generation": {
+      "$ref": "artifact_entry.json"
+    },
+    "ui": {
+      "$ref": "artifact_entry.json"
+    },
+    "corpus": {
+      "$ref": "artifact_entry.json"
+    },
+    "retriever": {
+      "$ref": "artifact_entry.json"
+    },
+    "index": {
+      "$ref": "artifact_entry.json"
+    },
+    "model": {
+      "$ref": "artifact_entry.json"
+    },
+    "policy": {
+      "$ref": "artifact_entry.json"
+    }
+  },
+  "required": [
+    "prompt",
+    "generation",
+    "ui",
+    "corpus",
+    "retriever",
+    "index",
+    "model",
+    "policy"
+  ],
+  "additionalProperties": false,
+  "propertyNames": {
+    "type": "string",
+    "minLength": 1,
+    "maxLength": 256,
+    "format": "identifier"
+  }
+}

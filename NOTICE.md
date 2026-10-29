@@ -26,3 +26,8 @@ generation differ from reported approved values. They are not mitigated. UF5
 remains NO_ADDED_LA_HANDOFF_VALUE; STOP_CURRENT_JLA_FORMULATION. This resource
 does not claim superiority over full-information B0/B2, source truth, production
 security, causal learning effects, measured user benefit or external adoption.
+
+
+## Historical validation data
+
+The new data/ archive is a mixed-license distribution: data/collection documentation CC BY 4.0; software/code retain MIT. The root software MIT grant does not override the file-level exceptions in data/LICENSE_MAP.csv. Creator: Aditya Nur Cahyo. No journal, institutional or coauthor approval is asserted.

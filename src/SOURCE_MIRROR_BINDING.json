@@ -1,0 +1,410 @@
+{
+  "current_source_version": "1.12.0",
+  "source_manifest_sha256": "1a39d41ec5d097e1870f119bdb5579fe64072a32b4ab4f95fdc0de85c6d6f367",
+  "mirror": "src/cpc_wss_u01_v1_12_0",
+  "compatibility_location": "software",
+  "files": [
+    {
+      "relative_path": "CHANGELOG.md",
+      "sha256": "97ac7fa95d745d9b2276a986a349d13f85a99e1b281396d5547abdc5d3995cc1"
+    },
+    {
+      "relative_path": "IMPLEMENTATION_STATUS.json",
+      "sha256": "62e635b12faa265c6a9c974d6b34e6056d3cd5183a8b2c1df1daaca7740d83e5"
+    },
+    {
+      "relative_path": "README.md",
+      "sha256": "993137c8508ab70783f34f36554a17f95680886b93249c95be07ff3bd1e7b452"
+    },
+    {
+      "relative_path": "SOURCE_MANIFEST.sha256",
+      "sha256": "1a39d41ec5d097e1870f119bdb5579fe64072a32b4ab4f95fdc0de85c6d6f367"
+    },
+    {
+      "relative_path": "docs/baselines.md",
+      "sha256": "399d8dc556c61dba5d90147006d71ba6d16f4c9478d8e63398d4e289c9ad9ccf"
+    },
+    {
+      "relative_path": "docs/campaign_driver.md",
+      "sha256": "e988a1cedd46f8d463cc58e3b8fabea28c8fe12a7c1a9516a2a1d85818f49761"
+    },
+    {
+      "relative_path": "docs/controller_episode.md",
+      "sha256": "cbf31826e5274f85e918b84adaf69a53afe8aafe8ef55fda1e893650a22131f2"
+    },
+    {
+      "relative_path": "docs/counterparts.md",
+      "sha256": "6a227df0fcad12e8b51ad77a7f53d274a57cdffb2775ea793fc84e9e827adec9"
+    },
+    {
+      "relative_path": "docs/cpc_adapter.md",
+      "sha256": "4e7eb54b4af298d04ebe9abacf6bb16e5c58704d5450ae3a85190c1566284d83"
+    },
+    {
+      "relative_path": "docs/ledger.md",
+      "sha256": "027c9310da58f2e0f1319a639c6552f46e437728e08d0ff290ae79b9561051b5"
+    },
+    {
+      "relative_path": "docs/native_access_contract.md",
+      "sha256": "3aff889a5ec12d2c7573949b6995664051677fb6dbc608bf00676dc0bad304d0"
+    },
+    {
+      "relative_path": "docs/native_acquisition.md",
+      "sha256": "47e3fc40eef558cb623bd0c0ccda14083ca7f3879a632b48e10691b7b68bcd54"
+    },
+    {
+      "relative_path": "docs/native_capture.md",
+      "sha256": "480cb3ec01d0a8a1a83699deaa92120bfa517cc709caef755f883820df39bc7f"
+    },
+    {
+      "relative_path": "docs/native_contract.md",
+      "sha256": "6f1a9ec0cda0e47aff55451a25449731f027461a93d4fd9c8055fceee0fe2e4a"
+    },
+    {
+      "relative_path": "docs/native_exchange.md",
+      "sha256": "480a322021c5dae6361e5e388f0175adeb13c050c2bdd709f8df75c94b0e5810"
+    },
+    {
+      "relative_path": "docs/native_http.md",
+      "sha256": "8329750d3f5b0ef6a5d423f2fb75c5638843006fce690343947cdfcc8d37b2d4"
+    },
+    {
+      "relative_path": "docs/native_process.md",
+      "sha256": "a6001ecf1b1c9f5cc75abe717271f86b4a63c161c1f53c95646dbfe64b73c24f"
+    },
+    {
+      "relative_path": "docs/native_transport.md",
+      "sha256": "0fac0ebbd43717be8f80bcb015cbfffb97b5e8076a05334c85569779b79d330a"
+    },
+    {
+      "relative_path": "docs/operator_flow.md",
+      "sha256": "44879e6107ae99998c1b68ab2fc31313da6b8a19661a75e1be30b9771066d6fc"
+    },
+    {
+      "relative_path": "docs/operator_ports.md",
+      "sha256": "a7d6dc8f866159a7745df02e6555931953ef72ef448778fdf13df431f58b9160"
+    },
+    {
+      "relative_path": "docs/outcomes_join.md",
+      "sha256": "900e7f5655d21ab741a99735781b6cdab4f6c8bf796a965fa9e01af2b4273195"
+    },
+    {
+      "relative_path": "docs/outer_evidence.md",
+      "sha256": "aec8827828866fa42d52e5bd76c87631d2217dd41e3b72e417d8a84b83da7dae"
+    },
+    {
+      "relative_path": "docs/producer.md",
+      "sha256": "5957d51f3644f312b9967d3e588060b647b28fa1fb87a69e5478c81d4af683a8"
+    },
+    {
+      "relative_path": "docs/producer_references.md",
+      "sha256": "f9418e73b82a0926e19f58417b32c29d93747b941301c2f589cc26b20a8dbef5"
+    },
+    {
+      "relative_path": "docs/reference_binding.md",
+      "sha256": "23a47b37148cb1fadcbb7222e67a71f651020057901b04038b7744252dfa76e0"
+    },
+    {
+      "relative_path": "docs/renderer.md",
+      "sha256": "a4fe64c9535e66fb4d58c83011feb386a813bdc3eecf75fe3b707deb27b95d2d"
+    },
+    {
+      "relative_path": "docs/sc01_response_scope.md",
+      "sha256": "8cc693f5a529184f6bcd60417b7a6184a89f0cc3c0a70a659d623ad0f0f72a01"
+    },
+    {
+      "relative_path": "docs/worked_runner.md",
+      "sha256": "ace5e21fdc7ae6c4bf11ea4c792cbaf7f53fb0e27947b633e7ab2985ae094462"
+    },
+    {
+      "relative_path": "native/read_feedback.php",
+      "sha256": "eaca0a09a32fabe60144d2cf7b505ee5133b5365d9761de115bafcd3456924d4"
+    },
+    {
+      "relative_path": "native/test_read_feedback_offline.php",
+      "sha256": "014253bd6d008b56992227cff557bc008aa1656e42106e2c2886d06323c7d28e"
+    },
+    {
+      "relative_path": "native/test_sc01_offline.php",
+      "sha256": "f7f393856c0fa8714a9b788eb4add9346d8f8425452e9acc124e33177278afc7"
+    },
+    {
+      "relative_path": "references/REFERENCE_MANIFEST.json",
+      "sha256": "9c4dee342dc86a4c614a337f6891bdae63e8fd75b00f2267e3081de011bc62ad"
+    },
+    {
+      "relative_path": "references/comparator_release/comparator/independent_rules.py",
+      "sha256": "3db0709ed4384c371a15df812791cc3a3ba98a94ee6f8b8164d842cc7e68504a"
+    },
+    {
+      "relative_path": "references/comparator_release/implementation/spec/FIELD_REQUIREMENTS.json",
+      "sha256": "33b936510b79147e946729c2099bc264a83f9597ec3b91635910a4b8349fb8b6"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/schemas/README.md",
+      "sha256": "f50aa522efd5e9ddf9de2ba14537f69ed0592d9a723e85077457a79bda0e83c3"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/schemas/admitted_export.json",
+      "sha256": "1946384567cbbb642199e88f593715ad527ba1b77e43f5e1bab22539e3844e81"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/schemas/artifact_entry.json",
+      "sha256": "824d30597d6f86a5ed9380c8f9b956d93f9178d184c053c8818e97ec1dc77a9b"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/schemas/artifacts.json",
+      "sha256": "a34a8fa0e41990085a2eec2379aa4adaa43951937962ebfefe00f1911f51d493"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/schemas/assignment_payload.json",
+      "sha256": "d49fff78b223ba50028d47b4acd005f75df696b3684ef5930fb112c50b2e37fe"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/schemas/assignment_record.json",
+      "sha256": "9c5b40f7a8164e7192a79ecdfb29247174a6114da6a75c58911ffd1a77121f93"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/schemas/chain.json",
+      "sha256": "5f954dfe4960901accb85d1b5d63f235ac734ccffe98636cfd407991d85e6468"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/schemas/commitment.json",
+      "sha256": "674ccd74fa7953d0f4437b9c1d0355ac0310138c80cfdea5971d5a85b83a0a09"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/schemas/commitment_body.json",
+      "sha256": "1405363459a530d7a69aceac4753cf3d5a045414994acce1f9dffad30b3e07e4"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/schemas/diagnostic.json",
+      "sha256": "7e10fa84e3c49a8bc5fe56e084e7c972f53ca7a408101f5ad65fd49e415a8b9d"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/schemas/exposure_payload.json",
+      "sha256": "c7b0de2d9d2d1a71de6d49a3d475e91b91e1c6f9abc5c401e9ad1e19decadb26"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/schemas/exposure_record.json",
+      "sha256": "ddf93aa9be9ebc6065f0ddd7dada1613ac2846e5e51f4f5ab8423f66c9760db5"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/schemas/extensions.json",
+      "sha256": "a4c7966c31e76c585cef50a7236874e1c6ef671d0ce82908c63ea007d20105ee"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/schemas/integrity.json",
+      "sha256": "096baf95e393f0ba75f0c45c0bf57bcdb9d973b52e7a46e4fe84be2c5ccac1aa"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/schemas/launch_attestation.json",
+      "sha256": "2909541f8d9828cbb5ae1d32defe023c9e23137b173b1ca9418b16cf7c618323"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/schemas/launch_attestation_body.json",
+      "sha256": "6dc11b392630fff958cf19402015d048699cf015a8b3a961cac905dc000115ec"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/schemas/measured_component.json",
+      "sha256": "87c8237d9834f6b203e41db13d73221868286fa943258928589f2049fbb06625"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/schemas/measured_components.json",
+      "sha256": "f645afbf0474042ece67b26d9fdb33267fe9fe57a6859e6e127a1ef643d8db67"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/schemas/metadata.json",
+      "sha256": "10754eb099dbe3b3ea22c57e2e1d4ee3dd2aa48291ca24cb226958589b01d686"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/schemas/outcome_payload.json",
+      "sha256": "d8d28105a2a38b58468f0948aa9a40db1325382ac720db02ef3d791a69b9f4e8"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/schemas/outcome_record.json",
+      "sha256": "ed94219f30236dc07354f4c5dd0b826e31088263f1d9c4f456ad7941d780b96b"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/schemas/profile.json",
+      "sha256": "e26316f12a8b95e43c962d62a56c19a3f45a9bad7ca4c643c24d7ab89edd1882"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/schemas/record.json",
+      "sha256": "71fcc3af2e6b3eac547f783e91bf977ea2733621c68aab7532cf800de4186785"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/schemas/release_attestation.json",
+      "sha256": "d128a4d1de63562e1ac1db0fdbed6216ba3c7f5fb45e11a75eaaa8a48d73d2df"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/schemas/release_attestation_body.json",
+      "sha256": "517f746ea9f89451bf4d7bf79cad7676091e38c9827cf63a9b53262741007d52"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/schemas/resolution_payload.json",
+      "sha256": "580de4fb2d8232fb4fec1f5e45c0114f6d4ceab256b81261f4c1af1e3965233c"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/schemas/resolution_record.json",
+      "sha256": "5c03e04ad32c4e38cda1146588668bc8a602ffc90025ba4d5ab025d212b25bcf"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/schemas/result.json",
+      "sha256": "e2ed52f74c1dfe2b104e87278fe60356c3b0cbc51342c2d38adc108ecdae14fc"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/schemas/usage_attestation.json",
+      "sha256": "43c89d9d59f88f25197800c106e27a32b86a844fcdb0fb09063755b6758cf1c1"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/schemas/usage_attestation_body.json",
+      "sha256": "2150605f4649ef4eb964e975da79975fccebdc4cbfa053a610c13380ce772cb2"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/src/cpc2/__init__.py",
+      "sha256": "f3bb16879637c89b3686a48dd00327eadac891196ea7aba20729351da6ce6e71"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/src/cpc2/__main__.py",
+      "sha256": "1815d62f6df10eded84e5f3590727c71afca3fed96cbd18fc31a4c4a62d11ab9"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/src/cpc2/api.py",
+      "sha256": "3e2f5e1c12886698427e86a5a0f21e6071cc9911d963e370dd18a09425348653"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/src/cpc2/common.py",
+      "sha256": "08123a6f3e2ebeb18e5d92aa441ce0d924661c710943cae2a7477d3e45467719"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/src/cpc2/export.py",
+      "sha256": "0c6f6f2f164eda288af175078ec964813fa6624dd623d11e7927d3d2c3ee86b9"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/src/cpc2/integrity.py",
+      "sha256": "ff4b94906f0919a3bae3dae2a7310e97f1c99189107af0c65fce640d71cbb207"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/src/cpc2/profile.py",
+      "sha256": "6000a36b95bb11c4439ad3bc3143653a7ccb594e31d4b48f8599218a75694c5e"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/src/cpc2/schema.py",
+      "sha256": "0270c67242f1eb3bfea80dc390dd05230167b1f4bef225587638ecfb46cda6c3"
+    },
+    {
+      "relative_path": "references/cpc_release/implementation/src/cpc2/validator.py",
+      "sha256": "4a4791eca1294c4bc4fb284bdd89c3f4318f0ba913d3ccd1b312756078f6ce0c"
+    },
+    {
+      "relative_path": "src/wss_bridge/__init__.py",
+      "sha256": "095648eb138de611d1c750f21b8a3c0c7beec7f200597aaee6ea50c15eb6dd83"
+    },
+    {
+      "relative_path": "src/wss_bridge/baselines.py",
+      "sha256": "0dba0c0b8604f4d700026c30be2d7f9070d33c00a7e2c38be5149f10a0977c29"
+    },
+    {
+      "relative_path": "src/wss_bridge/campaign_driver.py",
+      "sha256": "42c162a29d1b8df2b7b5f59d03899da70e06f92023a01a99adb32baeb3d501ab"
+    },
+    {
+      "relative_path": "src/wss_bridge/capture.py",
+      "sha256": "1e34852e2c7d9527feaec65cd09b6f3da5165ddaa08d778a41d4d4f403279fd4"
+    },
+    {
+      "relative_path": "src/wss_bridge/configuration.py",
+      "sha256": "f4e8c2fbdc3652ad33e14325877a0318ce08efedbf949375100b55da26509f4a"
+    },
+    {
+      "relative_path": "src/wss_bridge/controller.py",
+      "sha256": "789dd38e45e5e0992796348b719eb603d25b99362fb7f8ad96cbf69e48435b4f"
+    },
+    {
+      "relative_path": "src/wss_bridge/counterparts.py",
+      "sha256": "bc02554551b8f5e612317048b8d17dc1be03ee26e6878406c19b86eee8e79bc1"
+    },
+    {
+      "relative_path": "src/wss_bridge/cpc_adapter.py",
+      "sha256": "79426126b56b7217db2938ea5c5c9b4323c909f4ef2c6fec6a6a62caa9305e6f"
+    },
+    {
+      "relative_path": "src/wss_bridge/episode.py",
+      "sha256": "24c6bdf4785b14e0a7735d250394fd96662e72690f1b1cc9e97f35d4cc515873"
+    },
+    {
+      "relative_path": "src/wss_bridge/join.py",
+      "sha256": "0b16ae8dc57c790a35d5ec99864d6bf06267b8c969ea2eef4581a2a0132b5ba9"
+    },
+    {
+      "relative_path": "src/wss_bridge/ledger.py",
+      "sha256": "78f9b95f7a373fc3e1a0c000f436e0c9a73075aca5f9d1b2fa3808d40605b5e3"
+    },
+    {
+      "relative_path": "src/wss_bridge/native_acquisition.py",
+      "sha256": "833d942e5de3555183b289da356858bf04c10ec65aa5ec05b62de0395c37a184"
+    },
+    {
+      "relative_path": "src/wss_bridge/native_capture.py",
+      "sha256": "0f39ee9606596d00874d2758393b13d77471298f985357dbef7750f0db590b3c"
+    },
+    {
+      "relative_path": "src/wss_bridge/native_contract.py",
+      "sha256": "3903708c145a0c55ea1e8b0078acfeff935f11c30b5056bed8915a9135c87083"
+    },
+    {
+      "relative_path": "src/wss_bridge/native_exchange.py",
+      "sha256": "640ffc6f6da143c99c4c8132d806f5c32bbf360733e810993296c984ff5fe31a"
+    },
+    {
+      "relative_path": "src/wss_bridge/native_http.py",
+      "sha256": "440e244c5c4fa124965b9b5ab735286dff1167ca84ebef4e1499e35acc68bf8b"
+    },
+    {
+      "relative_path": "src/wss_bridge/native_process.py",
+      "sha256": "f8d02b167cbfe58b47c2e6db6fd3e4d25a22985fa846a792122dc46ff82d8f63"
+    },
+    {
+      "relative_path": "src/wss_bridge/native_transport.py",
+      "sha256": "5dddf25e83a19c30b6046c83820f0d6ef14e908fa8a53223da91cc83b49be402"
+    },
+    {
+      "relative_path": "src/wss_bridge/operator_ports.py",
+      "sha256": "4c32d0fa236d3f63c3c34e623e0d22f8e4ba53dd18ea0866227897f9a0470edc"
+    },
+    {
+      "relative_path": "src/wss_bridge/outcomes.py",
+      "sha256": "b1223d28163e1a7fe625403b488c689dae85e434ee65771ebd63daece81b0414"
+    },
+    {
+      "relative_path": "src/wss_bridge/outer_evidence.py",
+      "sha256": "0fdb173eb51ebef16f6c3f5f43b2a7249f9b494a55439da5e7eed06e89a1c32d"
+    },
+    {
+      "relative_path": "src/wss_bridge/primitives.py",
+      "sha256": "d20c7d73a34eebba40c4e868cd1cafa990d76226439954515902dbcdb3762bfc"
+    },
+    {
+      "relative_path": "src/wss_bridge/producer.py",
+      "sha256": "aef7e26a3056bac12e322beea978033913fe562221e55eb71371cba72e89652b"
+    },
+    {
+      "relative_path": "src/wss_bridge/producer_references.py",
+      "sha256": "8df28961b18a61f166b92a4a62a8f91d87b070eae31694427be624ae5d47c17d"
+    },
+    {
+      "relative_path": "src/wss_bridge/renderer.py",
+      "sha256": "30ece1d872a8893f2aaa7a0830cef7c3c6fa344f7525c525642ab48bea117984"
+    },
+    {
+      "relative_path": "src/wss_bridge/reporting.py",
+      "sha256": "bb68db810eddd78868ed830df51776c9cc5dd069c56758f3e006c7f41af3d21d"
+    },
+    {
+      "relative_path": "src/wss_bridge/worked_runner.py",
+      "sha256": "799c271f15e0cf67de521b6046350970cd890869c4cb04300ad887af1db73e68"
+    }
+  ],
+  "all_bytes_identical": true,
+  "new_runtime_or_platform_qualification": false
+}

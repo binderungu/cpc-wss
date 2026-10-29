@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "resolution_payload.json",
+  "type": "object",
+  "properties": {
+    "requested_condition": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "resolved_condition": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "claim_namespaces": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 256,
+        "format": "identifier"
+      },
+      "minProperties": 1,
+      "propertyNames": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 256,
+        "format": "identifier"
+      }
+    },
+    "resolver_version": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "fallback_used": {
+      "type": "boolean"
+    },
+    "fallback_authorized": {
+      "type": "boolean"
+    },
+    "authorization_ref": {
+      "anyOf": [
+        {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 256,
+          "format": "identifier"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "launch_nonce": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "launch_attestation": {
+      "$ref": "launch_attestation.json"
+    }
+  },
+  "required": [
+    "requested_condition",
+    "resolved_condition",
+    "claim_namespaces",
+    "resolver_version",
+    "fallback_used",
+    "fallback_authorized",
+    "authorization_ref",
+    "launch_nonce",
+    "launch_attestation"
+  ],
+  "additionalProperties": false
+}

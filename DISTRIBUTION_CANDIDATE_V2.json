@@ -1,0 +1,18 @@
+{
+  "status": "SOURCE_EVIDENCE_DISTRIBUTION_PREPARED_FOR_PUBLICATION",
+  "distribution_tag": "repository-evidence-v2-20261029",
+  "date_local": "2026-10-29",
+  "base_public_pin": "ccdc93e0d1272ee1e65915409cc95da35f35aa4b",
+  "source_version": "1.12.0",
+  "source_mirror": "src/cpc_wss_u01_v1_12_0",
+  "compatibility_tree": "software",
+  "executable_bytes_changed": false,
+  "new_runtime_qualification": false,
+  "data_archive": "data/CPC_WSS_VALIDATION_EVIDENCE_V3_20261029.zip",
+  "data_sha256": "ecd42a52e152476450df3019e13ecdb115ca8f3eb7fb8011445ef4b03f479724",
+  "data_creator": "Aditya Nur Cahyo",
+  "dataset_version": "V3-20261029",
+  "Zenodo": "SKIPPED_BY_AUTHOR",
+  "doi": null,
+  "delivery_verification": "External commit/tag and anonymous clone receipt"
+}

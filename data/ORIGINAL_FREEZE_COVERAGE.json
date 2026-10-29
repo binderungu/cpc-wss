@@ -1,0 +1,56 @@
+[
+  {
+    "stage": "D1",
+    "original_frozen_files": 5848,
+    "selected_frozen_files": 5844,
+    "omitted_frozen_files": [
+      "review/PREFLIGHT_R1.md",
+      "review/PREFLIGHT_R1_RECEIPT.json",
+      "review/PREFLIGHT_R2.md",
+      "review/PREFLIGHT_R2_RECEIPT.json"
+    ],
+    "original_freeze_preserved_unedited": true,
+    "unmodified_runner_freeze_guard_is_not_replay_ready": true
+  },
+  {
+    "stage": "D2",
+    "original_frozen_files": 131,
+    "selected_frozen_files": 127,
+    "omitted_frozen_files": [
+      "review/PREFLIGHT_R1.md",
+      "review/PREFLIGHT_R1_RECEIPT.json",
+      "review/PREFLIGHT_R2.md",
+      "review/PREFLIGHT_R2_RECEIPT.json"
+    ],
+    "original_freeze_preserved_unedited": true,
+    "unmodified_runner_freeze_guard_is_not_replay_ready": true
+  },
+  {
+    "stage": "D3",
+    "original_frozen_files": 1847,
+    "selected_frozen_files": 1828,
+    "omitted_frozen_files": [
+      "inputs/d2_prior_evidence/FINAL_VERIFICATION.md",
+      "inputs/d2_prior_evidence/FINAL_VERIFICATION_RECEIPT.json",
+      "evidence/prior_failed_D3_V1/inputs/d2_prior_evidence/FINAL_VERIFICATION.md",
+      "evidence/prior_failed_D3_V1/inputs/d2_prior_evidence/FINAL_VERIFICATION_RECEIPT.json",
+      "evidence/prior_failed_D3_V1/provenance/AUTHORIZED_SCOPE.json",
+      "evidence/prior_failed_D3_V1/provenance/D3_EXECUTION_FREEZE.json",
+      "evidence/prior_failed_D3_V1/provenance/PROTECTED_BEFORE.json",
+      "evidence/prior_failed_D3_V1/provenance/SOURCE_BINDING.json",
+      "evidence/prior_failed_D3_V1/review/PREFLIGHT_MECHANICAL_PREPARATION.json",
+      "evidence/prior_failed_D3_V1/review/PREFLIGHT_R1.json",
+      "evidence/prior_failed_D3_V1/review/PREFLIGHT_R1.md",
+      "evidence/prior_failed_D3_V1/state/checkpoint-000000.json",
+      "review/PREFLIGHT_MECHANICAL_PREPARATION.json",
+      "review/PREFLIGHT_R1.json",
+      "review/PREFLIGHT_R1.md",
+      "review/PREFLIGHT_R2.json",
+      "review/PREFLIGHT_R2.md",
+      "provenance/AUTHORIZED_SCOPE.json",
+      "provenance/PRIOR_FAILURE_COPY_RECEIPT.json"
+    ],
+    "original_freeze_preserved_unedited": true,
+    "unmodified_runner_freeze_guard_is_not_replay_ready": true
+  }
+]

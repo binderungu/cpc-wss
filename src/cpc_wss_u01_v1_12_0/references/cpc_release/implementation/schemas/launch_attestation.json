@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "launch_attestation.json",
+  "type": "object",
+  "properties": {
+    "body": {
+      "$ref": "launch_attestation_body.json"
+    },
+    "integrity": {
+      "$ref": "integrity.json"
+    }
+  },
+  "required": [
+    "body",
+    "integrity"
+  ],
+  "additionalProperties": false
+}

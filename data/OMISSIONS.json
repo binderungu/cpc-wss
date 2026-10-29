@@ -1,0 +1,192 @@
+[
+  {
+    "origin": "evidence/D1/provenance/COMPLETION_RECEIPT.json",
+    "sha256": "65ded1c0435ef0c2ffd406651ec0e18c6dcf7dd4dcb1501be9136b3e9d89cd3c",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D1/provenance/PARENT_RELEASE.json",
+    "sha256": "7e118ba51a126a2dee7d8a3db9a8b69f2051d9d1a8700801a84119c9aa7b330f",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D1/provenance/PRESERVATION_RECEIPT.json",
+    "sha256": "98bacc80ea10dd468d62bcf173b6b6a10cd58796a2b2a7908080a979c4cf50e7",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D1/provenance/PROTECTED_BEFORE.json",
+    "sha256": "63e897b2c6fd55404eadce37db505e5f06f92823d96c92da3c3bbcd682e061ef",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D1/review/PREFLIGHT_R1.md",
+    "sha256": "9ef42f5aa942a2ac7a039416ff9beb610a39f0a059b35af0063624fa623e0552",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D1/review/PREFLIGHT_R1_RECEIPT.json",
+    "sha256": "dec3a1830ceafa230cb3953d54c2cf09c6159a141951d97b01284a758eb01dae",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D1/review/PREFLIGHT_R2.md",
+    "sha256": "535e764702dcad3852b12116667797e3b02078eba711aa9e4e7e41ecbbf93681",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D1/review/PREFLIGHT_R2_RECEIPT.json",
+    "sha256": "282ea1c5a4dcbd63031ec024353c11e30e8a98f62b2e3dd96c9e6cba0f24c720",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D2/provenance/AUTHORIZED_SCOPE.json",
+    "sha256": "d0ad9fb248e2602ca819589579d08b8f55376964f38d7ccc60921d31d2b16168",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D2/provenance/COMPLETION_RECEIPT.json",
+    "sha256": "5f3338d258b5dca7215f9b2d5663175bf92aabe1a97ecaf28dc11f1019ad22ee",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D2/provenance/PRESERVATION_RECEIPT.json",
+    "sha256": "3e1c99e0745b273646ad21db78fb528e1bbde4e6abf302c452af89ad09207416",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D2/provenance/PROTECTED_BEFORE.json",
+    "sha256": "012fd6a1c0e63a0ba5dc55ac4de37d7ff4bff9a7e1c8690a2e18e5528d2d6b0d",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D2/review/PREFLIGHT_R1.md",
+    "sha256": "4977763e80326ddae582e637c5ca5233a506dc51f85078ecc2a4a73258f8f93e",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D2/review/PREFLIGHT_R1_RECEIPT.json",
+    "sha256": "289e506752810d016e64cebda8797fc509f36888ae20c18bdff57b262aac4310",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D2/review/PREFLIGHT_R2.md",
+    "sha256": "ee12f24ab322836b1f078851095c51f30c2792e36b33e22068510cc72c8c8509",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D2/review/PREFLIGHT_R2_RECEIPT.json",
+    "sha256": "49813711bd6cc1b8d4df0fbdefdd66e8ca84b01e45d0db0502bda6ae216d5bf3",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D3/evidence/prior_failed_D3_V1/inputs/d2_prior_evidence/FINAL_VERIFICATION.md",
+    "sha256": "93472c57d9295ccfbfb3bb7e8f6bae7833c7ae6c78e3829d47e18e51c741dcf5",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D3/evidence/prior_failed_D3_V1/inputs/d2_prior_evidence/FINAL_VERIFICATION_RECEIPT.json",
+    "sha256": "d5f4c59b7d182af84be0bdc5fbf81ce0cb1a0fe8f26080f580545529c5ea9f70",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D3/evidence/prior_failed_D3_V1/provenance/AUTHORIZED_SCOPE.json",
+    "sha256": "7a4d55aebe09ae1497c175f6922de6de7efe0117788f3d617c284755818134cd",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D3/evidence/prior_failed_D3_V1/provenance/D3_EXECUTION_FREEZE.json",
+    "sha256": "385aad9571bbf85216671b5ba10572339e508febaf8dbfbd7a4224c5b4c04986",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D3/evidence/prior_failed_D3_V1/provenance/PROTECTED_BEFORE.json",
+    "sha256": "4803fed4d391bdb2c52c59bcad1220ac26fdb7e03d873c6cee51b26b950c3d37",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D3/evidence/prior_failed_D3_V1/provenance/SOURCE_BINDING.json",
+    "sha256": "ccb1d8778fe81dbd192d2f9a7dc11b12bbbd5a581246b0258e2939c963779086",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D3/evidence/prior_failed_D3_V1/review/PREFLIGHT_MECHANICAL_PREPARATION.json",
+    "sha256": "a0b3ff13cc3a5337b57e9c3af9248eebfeffcc79e5528d23770a28fe483ba374",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D3/evidence/prior_failed_D3_V1/review/PREFLIGHT_R1.json",
+    "sha256": "0e85da437c7784fe77c273c8b102267e2b19eb46884a96698f59a907a8037eac",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D3/evidence/prior_failed_D3_V1/review/PREFLIGHT_R1.md",
+    "sha256": "26135eb9d8b11834761f5e38adf36ec8ee232fc3041d96b3a9f089ec04d6cece",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D3/evidence/prior_failed_D3_V1/state/checkpoint-000000.json",
+    "sha256": "4410b1124f31da4aa7f2bc2aafd7a2d3db6bc063970dc5e1e2e92c94ffd39e30",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D3/inputs/d2_prior_evidence/FINAL_VERIFICATION.md",
+    "sha256": "93472c57d9295ccfbfb3bb7e8f6bae7833c7ae6c78e3829d47e18e51c741dcf5",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D3/inputs/d2_prior_evidence/FINAL_VERIFICATION_RECEIPT.json",
+    "sha256": "d5f4c59b7d182af84be0bdc5fbf81ce0cb1a0fe8f26080f580545529c5ea9f70",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D3/provenance/AUTHORIZED_SCOPE.json",
+    "sha256": "7a4d55aebe09ae1497c175f6922de6de7efe0117788f3d617c284755818134cd",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D3/provenance/COMPLETION_RECEIPT.json",
+    "sha256": "27d6150732e71ab3df374f196ce240c25d72ccddfa9adf5f31be727bcf7de66e",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D3/provenance/PRESERVATION_RECEIPT.json",
+    "sha256": "dba9761eef3a4d172f678f69c1db93960e7d050cdbfb251ca2b5b2cc00996d97",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D3/provenance/PRIOR_FAILURE_COPY_RECEIPT.json",
+    "sha256": "cacb477c3c38b15c4f7d1a89ac1d5db83639abf31ecf6995057ba236f8e84f0d",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D3/provenance/PROTECTED_BEFORE.json",
+    "sha256": "31a0b50c0477cef5080abf28b14a5de88513a8daeafefdd23b42b85fbad603c3",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D3/review/PREFLIGHT_MECHANICAL_PREPARATION.json",
+    "sha256": "a0b3ff13cc3a5337b57e9c3af9248eebfeffcc79e5528d23770a28fe483ba374",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D3/review/PREFLIGHT_R1.json",
+    "sha256": "0e85da437c7784fe77c273c8b102267e2b19eb46884a96698f59a907a8037eac",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D3/review/PREFLIGHT_R1.md",
+    "sha256": "26135eb9d8b11834761f5e38adf36ec8ee232fc3041d96b3a9f089ec04d6cece",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D3/review/PREFLIGHT_R2.json",
+    "sha256": "a0b88904768e34e7f3835cdef5a867fc57fb9d482c826458c09e57ead88f1913",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  },
+  {
+    "origin": "evidence/D3/review/PREFLIGHT_R2.md",
+    "sha256": "5fb551eb7fed0af5658bb3e2ca82dd04cd5775f9968ee4e19a0d99bf0e408389",
+    "reason": "Internal review/context or unneeded whole-workspace preservation/state inventory"
+  }
+]

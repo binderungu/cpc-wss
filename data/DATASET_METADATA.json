@@ -1,0 +1,22 @@
+{
+  "title": "CPC/WSS: synthetic validation inputs and archived preparation outputs",
+  "creator": "Aditya Nur Cahyo",
+  "other_creators": [],
+  "version": "V3-20261029",
+  "distribution_tag": "repository-evidence-v2-20261029",
+  "source_version": "1.12.0",
+  "archive": "CPC_WSS_VALIDATION_EVIDENCE_V3_20261029.zip",
+  "archive_bytes": 24677193,
+  "sha256": "ecd42a52e152476450df3019e13ecdb115ca8f3eb7fb8011445ef4b03f479724",
+  "data_documentation_license": "CC-BY-4.0",
+  "software_license": "MIT",
+  "licence_scope": "LICENSE_MAP.csv; not interchangeable whole-archive licences",
+  "original_selected_evidence_files": 9804,
+  "internal_omissions": 38,
+  "resource_type": "Dataset and accompanying historical source evidence",
+  "doi": null,
+  "version_url": "https://github.com/binderungu/cpc-wss/tree/repository-evidence-v2-20261029/data/",
+  "download_url": "https://raw.githubusercontent.com/binderungu/cpc-wss/repository-evidence-v2-20261029/data/CPC_WSS_VALIDATION_EVIDENCE_V3_20261029.zip",
+  "related_software_base": "https://github.com/binderungu/cpc-wss/tree/ccdc93e0d1272ee1e65915409cc95da35f35aa4b",
+  "statement": "Synthetic technical evidence; not human learning outcomes, production guarantees or a new experiment."
+}

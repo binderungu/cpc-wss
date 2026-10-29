@@ -1,0 +1,36 @@
+{
+  "artifact_version": "cpc_wss_u01_v1_12_0",
+  "parent": "cpc_wss_u01_v1_11_0",
+  "source_state": "NEW_INTEGRATION_IMPLEMENTED_VERIFICATION_RECORDED_EXTERNALLY",
+  "new_modules": [
+    "native_exchange",
+    "operator_ports",
+    "native_http",
+    "native_acquisition",
+    "native_process",
+    "campaign_driver",
+    "counterparts",
+    "outer_evidence"
+  ],
+  "changed_inherited_modules": [
+    "__init__ version only"
+  ],
+  "native_helper_version": "1.10.0",
+  "native_helper_sha256": "eaca0a09a32fabe60144d2cf7b505ee5133b5365d9761de115bafcd3456924d4",
+  "CPC_contract": "2.0.1",
+  "CPC_implementation": "2.0.2",
+  "comparator": "1.0.1",
+  "actual_native_execution_by_release_or_tests": false,
+  "human_authority_from_source": false,
+  "scientific_approval": false,
+  "UF1_UF6": "NOT_ADJUDICATED",
+  "Y_next": "NOT_MEASURED / NOT_VALIDATED_HERE",
+  "four_D2": "PRESERVED_NOT_MITIGATED",
+  "G0": {
+    "same_root": true,
+    "count": null,
+    "balance": null,
+    "reset": false
+  },
+  "verification_receipts": "outputs/CPC_JLA_COMPLETION_CAMPAIGN_V1_20261026/qualification; see exact source hashes and independent review"
+}

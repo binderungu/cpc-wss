@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "diagnostic.json",
+  "type": "object",
+  "properties": {
+    "rule_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "code": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "disposition": {
+      "type": "string",
+      "enum": [
+        "ERROR_CONFIG",
+        "ERROR_INPUT",
+        "REJECT",
+        "QUARANTINE",
+        "ADMIT",
+        "NOT_EVALUABLE",
+        "INFO"
+      ]
+    }
+  },
+  "required": [
+    "rule_id",
+    "code",
+    "path",
+    "disposition"
+  ],
+  "additionalProperties": false
+}

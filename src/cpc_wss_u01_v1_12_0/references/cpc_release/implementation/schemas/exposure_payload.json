@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "exposure_payload.json",
+  "type": "object",
+  "properties": {
+    "enacted_condition": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "artifact_version": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "artifacts": {
+      "$ref": "artifacts.json"
+    },
+    "invocation_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "commitment": {
+      "$ref": "commitment.json"
+    },
+    "release_attestation": {
+      "$ref": "release_attestation.json"
+    }
+  },
+  "required": [
+    "enacted_condition",
+    "artifact_version",
+    "artifacts",
+    "invocation_id",
+    "commitment",
+    "release_attestation"
+  ],
+  "additionalProperties": false
+}

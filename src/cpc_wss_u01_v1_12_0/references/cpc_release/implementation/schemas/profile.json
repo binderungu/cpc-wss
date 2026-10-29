@@ -1,0 +1,459 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "profile.json",
+  "type": "object",
+  "properties": {
+    "profile_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "profile_version": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "contract_version": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "schema_version": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "experiment_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "experiment_version": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "expected_audience": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "deployment_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "context_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "assignment_policy_version": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "resolver_version": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "mapping_version": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "consent_policy_version": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "observer_clock_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "release_boundary": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "profile_state": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 256,
+      "format": "identifier"
+    },
+    "freeze_timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "conditions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 256,
+        "format": "identifier"
+      },
+      "minItems": 1
+    },
+    "resource_condition_map": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 256,
+        "format": "identifier"
+      },
+      "minProperties": 1,
+      "propertyNames": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 256,
+        "format": "identifier"
+      }
+    },
+    "namespace_policy": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "role": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 256,
+            "format": "identifier"
+          },
+          "required": {
+            "type": "boolean"
+          },
+          "mapping": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 256,
+              "format": "identifier"
+            },
+            "minProperties": 0,
+            "propertyNames": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 256,
+              "format": "identifier"
+            }
+          }
+        },
+        "required": [
+          "role",
+          "required",
+          "mapping"
+        ],
+        "additionalProperties": false
+      },
+      "minProperties": 1,
+      "propertyNames": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 256,
+        "format": "identifier"
+      }
+    },
+    "record_issuers": {
+      "type": "object",
+      "properties": {
+        "assignment": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 256,
+          "format": "identifier"
+        },
+        "resolution": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 256,
+          "format": "identifier"
+        },
+        "exposure": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 256,
+          "format": "identifier"
+        },
+        "outcome": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 256,
+          "format": "identifier"
+        }
+      },
+      "required": [
+        "assignment",
+        "resolution",
+        "exposure",
+        "outcome"
+      ],
+      "additionalProperties": false
+    },
+    "proof_issuers": {
+      "type": "object",
+      "properties": {
+        "launch_attestation": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 256,
+          "format": "identifier"
+        },
+        "usage_attestation": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 256,
+          "format": "identifier"
+        },
+        "commitment": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 256,
+          "format": "identifier"
+        },
+        "release_attestation": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 256,
+          "format": "identifier"
+        }
+      },
+      "required": [
+        "launch_attestation",
+        "usage_attestation",
+        "commitment",
+        "release_attestation"
+      ],
+      "additionalProperties": false
+    },
+    "issuer_key_policy": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 256,
+        "format": "ascii-identifier"
+      },
+      "minProperties": 1,
+      "propertyNames": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 256,
+        "format": "identifier"
+      }
+    },
+    "permitted_purposes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 256,
+        "format": "identifier"
+      },
+      "minItems": 1
+    },
+    "consent_authority_refs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 256,
+        "format": "identifier"
+      },
+      "minItems": 1
+    },
+    "artifact_registry": {
+      "type": "object",
+      "additionalProperties": {
+        "$ref": "artifacts.json"
+      },
+      "minProperties": 1,
+      "propertyNames": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 256,
+        "format": "identifier"
+      }
+    },
+    "required_measured_components": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 256,
+        "format": "identifier"
+      },
+      "minItems": 1
+    },
+    "component_canonicalizations": {
+      "type": "object",
+      "properties": {
+        "prompt": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 256,
+          "format": "identifier"
+        },
+        "generation": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 256,
+          "format": "identifier"
+        }
+      },
+      "required": [
+        "prompt",
+        "generation"
+      ],
+      "additionalProperties": false
+    },
+    "fallback_permissions": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "condition": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 256,
+            "format": "identifier"
+          },
+          "artifact_versions": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 256,
+              "format": "identifier"
+            },
+            "minItems": 1
+          }
+        },
+        "required": [
+          "condition",
+          "artifact_versions"
+        ],
+        "additionalProperties": false
+      },
+      "minProperties": 0,
+      "propertyNames": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 256,
+        "format": "identifier"
+      }
+    },
+    "extension_keys": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 256,
+        "format": "namespaced-key"
+      },
+      "minItems": 0
+    },
+    "privacy_denylist": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 256,
+        "format": "identifier"
+      },
+      "minItems": 0
+    },
+    "input_limits": {
+      "type": "object",
+      "properties": {
+        "max_bytes": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "max_records": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "max_depth": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "CPC2.0.1 full decoded-chain maximum edge depth, root0 and scalar leaves/empty containers included; positive frozen value1..32."
+        },
+        "max_identifier_chars": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "required": [
+        "max_bytes",
+        "max_records",
+        "max_depth",
+        "max_identifier_chars"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "profile_id",
+    "profile_version",
+    "contract_version",
+    "schema_version",
+    "experiment_id",
+    "experiment_version",
+    "expected_audience",
+    "deployment_id",
+    "context_id",
+    "scope",
+    "assignment_policy_version",
+    "resolver_version",
+    "mapping_version",
+    "consent_policy_version",
+    "observer_clock_id",
+    "release_boundary",
+    "profile_state",
+    "freeze_timestamp",
+    "conditions",
+    "resource_condition_map",
+    "namespace_policy",
+    "record_issuers",
+    "proof_issuers",
+    "issuer_key_policy",
+    "permitted_purposes",
+    "consent_authority_refs",
+    "artifact_registry",
+    "required_measured_components",
+    "component_canonicalizations",
+    "fallback_permissions",
+    "extension_keys",
+    "privacy_denylist",
+    "input_limits"
+  ],
+  "additionalProperties": false
+}

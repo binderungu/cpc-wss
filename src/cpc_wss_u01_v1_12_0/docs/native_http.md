@@ -1,0 +1,5 @@
+# Scoped ordinary Moodle forms
+
+MoodleFormClient handles only loopback http://127.0.0.1:8088, synthetic actor4/cpc_wss_worked_v1, TASK cm4/item3 and FOLLOWUP cm5/item4 in course2. No requests/password reads on import or construction. Login verifies expected profile/logout/display-name without admin impersonation. Strict hidden fields/CSRF/action/question-control parsing guards final POST; completion needs the pinned entries_saved notification and absence of question controls, not HTTP200 alone. Input values are UTF8 and at most255characters. No retry.
+
+The expected question's appearance in page text is a secondary drift check. Authoritative preflight/pre_submit_gate MUST bind exact actual feedback_item.name/item/presentation digests and association to the form control. Public response receipts omit POST values, cookies, tokens and passwords; bounded raw HTML is private. Exact response/question bytes are retained separately through the helper under authorized scope. UI is localHTTP; TLS claims refer to DB PDO and require current native verification.

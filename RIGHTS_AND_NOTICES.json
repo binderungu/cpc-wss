@@ -43,6 +43,21 @@
       "paths": [],
       "origin": "PHP, Moodle, MariaDB, SLPT, external model providers",
       "status": "Not redistributed as dependencies here; no imported third-party source detected by static import inventory"
+    },
+    {
+      "paths": [
+        "src/cpc_wss_u01_v1_12_0"
+      ],
+      "origin": "Byte-identical mirror of existing MIT source",
+      "status": "Existing MIT grant and notices preserved"
+    },
+    {
+      "paths": [
+        "data"
+      ],
+      "origin": "Author-created synthetic records and historical project source",
+      "status": "Data/collection documentation CC-BY-4.0; code/software portions MIT; see data/LICENSE_MAP.csv and LICENSE_NOTICE.md",
+      "creator": "Aditya Nur Cahyo"
     }
   ],
   "no_legal_certification": true,
@@ -56,5 +71,5 @@
   },
   "external_runtime_notice": "CPython/PHP/Moodle/MariaDB and SLPT runtimes/source are not redistributed. Their own licenses are not replaced by this project MIT grant.",
   "repository_url": "https://github.com/binderungu/cpc-wss",
-  "distribution_scope": "Exact tracked snapshot; delivery/public-read verification is separate from this static metadata"
+  "distribution_scope": "Existing project MIT software plus separately scoped mixed-license historical data; old grants retained."
 }
